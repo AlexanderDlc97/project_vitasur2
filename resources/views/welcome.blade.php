@@ -1,0 +1,1 @@
+<a href="{{ route('admin-configuraciones.index') }}">Ir al administrador</a>
