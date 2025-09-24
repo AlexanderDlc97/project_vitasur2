@@ -13,6 +13,308 @@
             width: 150px; height: 150px;
         }
     }
+    .modal-xxl {
+        max-width: 90%; /* O un ancho fijo como 1200px */
+    }
+
+    /**/
+        .trapecio-bottom {
+            position: absolute;
+            bottom: 1px;
+            width: 35px;
+            right: 8px;
+            height: 0px;
+            border-right: 10px solid transparent;
+            border-left: 10px solid transparent;
+            border-bottom: 10px solid #b1afaf;
+            border-top: 0;
+        }
+
+        .trapecio-top {
+            position: absolute;
+            top: 0;
+            width: 35px;
+            right: 8px;
+            height: 0px;
+            border-right: 10px solid transparent;
+            border-left: 10px solid transparent;
+            border-top: 10px solid #b1afaf;
+            border-bottom: 0;
+        }
+
+        .trapecio-right {
+            position: absolute;
+            right: 5px;
+            top: 0;
+            width: 0px;
+            height: 35px;
+            border-right: 10px solid #b1afaf;
+            border-left: 0px solid transparent;
+            border-top: 10px solid transparent;
+            border-bottom: 10px solid transparent;
+        }
+
+        .trapecio-left {
+            position: absolute;
+            left: 0;
+            width: 0px;
+            height: 35px;
+            border-right: 0px solid transparent;
+            border-left: 10px solid #b1afaf;
+            border-top: 10px solid transparent;
+            border-bottom: 10px solid transparent;
+        }
+
+        .rectangulo-izq {
+            position: absolute;
+            left: 10px;
+            top: 10px;
+            width: 10px;
+            height: 13px;
+            border: 1px solid gray;
+        }
+
+        .rectangulo-der {
+            position: absolute;
+            right: 15px;
+            top: 10px;
+            width: 10px;
+            height: 13px;
+            border: 1px solid gray;
+        }
+
+        .cuadrado {
+            position: absolute;
+            right: 9px;
+            top: 8px;
+            width: 14px;
+            height: 14px;
+            border: 1px solid gray;
+        }
+
+        .trapecio-cuadrado-bottom {
+            position: absolute;
+            bottom: -1px;
+            width: 32px;
+            height: 0px;
+            left: 1px;
+            border-right: 8px solid transparent;
+            border-left: 8px solid transparent;
+            border-bottom: 8px solid #b1afaf;
+            border-top: 0;
+        }
+
+        .trapecio-cuadrado-top {
+            position: absolute;
+            top: -1px;
+            width: 32px;
+            left: 1px;
+            height: 0px;
+            border-right: 8px solid transparent;
+            border-left: 8px solid transparent;
+            border-top: 8px solid #b1afaf;
+            border-bottom: 0;
+        }
+
+        .trapecio-cuadrado-left {
+            position: absolute;
+            left: 0;
+            width: 0px;
+            right: 9px;
+            height: 32px;
+            border-right: 0px solid transparent;
+            border-left: 8px solid #b1afaf;
+            border-top: 8px solid transparent;
+            border-bottom: 8px solid transparent;
+        }
+
+        .trapecio-cuadrado-right {
+            position: absolute;
+            right: -1px;
+            top: 0;
+            width: 0px;
+            height: 32px;
+            border-right: 8px solid #b1afaf;
+            border-left: 0px solid transparent;
+            border-top: 8px solid transparent;
+            border-bottom: 8px solid transparent;
+        }
+
+
+        .rectangulo {
+            position: absolute;
+            right: 9.5px;
+            top: 12px;
+            width: 19px;
+            height: 10px;
+            border: 1px solid gray;
+        }
+
+        .trapecio-rectangulo-bottom {
+            position: absolute;
+            bottom: 0;
+            width: 35px;
+            height: 0px;
+            left: 2px;
+            border-right: 8px solid transparent;
+            border-left: 8px solid transparent;
+            border-bottom: 12px solid #b1afaf;
+            border-top: 0;
+        }
+
+        .trapecio-rectangulo-top {
+            position: absolute;
+            top: 0;
+            width: 35px;
+            left: 2px;
+            height: 0px;
+            border-right: 8px solid transparent;
+            border-left: 8px solid transparent;
+            border-top: 12px solid #b1afaf;
+            border-bottom: 0;
+        }
+
+        .trapecio-rectangulo-left {
+            position: absolute;
+            left: 0;
+            width: 0px;
+            height: 35px;
+            border-right: 0px px solid transparent;
+            border-left: 8px solid #b1afaf;
+            border-top: 10px solid transparent;
+            border-bottom: 10px solid transparent;
+        }
+
+        .trapecio-rectangulo-right {
+            position: absolute;
+            right: -1px;
+            top: 0;
+            width: 0px;
+            height: 35px;
+            border-right: 8px solid #b1afaf;
+            border-left: 0px solid transparent;
+            border-top: 10px solid transparent;
+            border-bottom: 10px solid transparent;
+        }
+
+
+        .rectangulo-small {
+            position: absolute;
+            right: 8px;
+            top: 11px;
+            width: 12px;
+            height: 8px;
+            border: 1px solid gray;
+        }
+
+        .trapecio-rectangulo-small-bottom {
+            position: absolute;
+            bottom: 0;
+            width: 30px;
+            height: 0px;
+            left: 1px;
+            border-right: 9px solid transparent;
+            border-left: 9px solid transparent;
+            border-bottom: 11px solid #b1afaf;
+            border-top: 0;
+        }
+
+        .trapecio-rectangulo-small-top {
+            position: absolute;
+            top: 0;
+            width: 30px;
+            left: 1px;
+            height: 0px;
+            border-right: 9px solid transparent;
+            border-left: 9px solid transparent;
+            border-top: 11px solid #b1afaf;
+            border-bottom: 0;
+        }
+
+        .trapecio-rectangulo-small-left {
+            position: absolute;
+            left: 0;
+            width: 0px;
+            height: 30px;
+            border-right: 0px solid transparent;
+            border-left: 8px solid #b1afaf;
+            border-top: 8px solid transparent;
+            border-bottom: 8px solid transparent;
+        }
+
+        .trapecio-rectangulo-small-right {
+            position: absolute;
+            right: -2px;
+            top: 0;
+            width: 0px;
+            height: 30px;
+            border-right: 8px solid #b1afaf;
+            border-left: 0px solid transparent;
+            border-top: 8px solid transparent;
+            border-bottom: 8px solid transparent;
+        }
+
+        .moveimage {
+            position: absolute;
+            left: 0px;
+            top: 0px;
+            cursor: move;
+            z-index: 2
+        }
+
+        .noevent {
+            pointer-events: none;
+        }
+
+
+            .moveimage > .imageresize {
+                position: absolute;
+                top: -3px;
+                right: -3px;
+                width: 5px;
+                height: 5px;
+                border: 1px solid;
+                cursor: e-resize;
+                display: none;
+            }
+
+            .moveimage.activo > .imageresize {
+                display: block;
+            }
+
+        .js_content img {
+            width: 40px;
+            height: 80px
+        }
+
+        .diente {
+            position: relative;
+            display: inline-block;
+        }
+
+        .modalOdontologiaMenu {
+            min-width: 150px;
+            position: absolute;
+            top: 160px;
+            left: 136px;
+            display: none;
+            border: 1px solid;
+            z-index: 4;
+            border-radius: 6px;
+            padding: 5px;
+            background-color: #fff;
+        }
+            .modalOdontologiaMenu > ul {
+                padding: 0px;
+                margin: 0px;
+                background-color: #fff;
+                list-style: none;
+            }
+
+            table td[data-opc='IMAGE']:hover {
+            background-color:lawngreen
+        }
+    /**/
 </style>
 @endsection
  
@@ -336,10 +638,14 @@
         @endif
         <a href="{{ route('admin-atenciones.index') }}" class="btn btn-grey">Volver</a>
     </div>
+    @include('ADMINISTRADOR.CLINICA.atenciones.detalles.create_odontograma')
 </div>
 {{-- Fin contenido --}}
 @endsection
 @section('js')
+<div class="js_modalOdontologia modalOdontologiaMenu"><ul></ul></div>
+<script src="/js/odontograma/html2canvas.min.js"></script>
+<script src="/js/odontograma/Odontograma.js"></script>
 <script>
     /* FINALIZAR PROCESO DE ATENCION */
         $('#finalizar_atencion_id').on('click', function(){

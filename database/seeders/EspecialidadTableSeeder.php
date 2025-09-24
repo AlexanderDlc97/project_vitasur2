@@ -57,14 +57,14 @@ class EspecialidadTableSeeder extends Seeder
         $especialidad->save();
 
         $especialidad = new Especialidad();
-        $especialidad->name = "Examen auxiliar";
+        $especialidad->name = "Medicina Interna";
         $especialidad->slug = Str::slug($especialidad->name);
         $especialidad->estado = "Activo";
         $especialidad->profesione_id = 1;
         $especialidad->save();
 
         $especialidad = new Especialidad();
-        $especialidad->name = "Rx";
+        $especialidad->name = "Odontologia";
         $especialidad->slug = Str::slug($especialidad->name);
         $especialidad->estado = "Activo";
         $especialidad->profesione_id = 1;
