@@ -35,7 +35,7 @@
                     <div class="col-12 col-md-8 col-lg-8 me-2">
                         <textarea name="otras_patologias" id="otras_patologias_id" placeholder="Otros" rows="3" class="form-control"></textarea>
                     </div>
-                    @if($admin_atencione->especialidad->id == '9')
+                    @if($admin_atencione->especialidad->id == '8')
                         <div class="col-12 col-md-4 col-lg-3">
                             <div class="pt-3 text-center" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
                                 <button type="button" data-bs-toggle="modal" data-bs-target="#createodontograma" class="btn btn-primary btn-sm text-uppercase text-white w-100" style="border-radius: 20px"><img src="/images/icons/icon_dental.png" class="img-fluid me-2" style="height: 35px;">REGISTRAR ODONTOGRAMA</button>

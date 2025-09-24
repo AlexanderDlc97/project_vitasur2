@@ -6,7 +6,7 @@
                 <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <div class="row">
+                <div class="row justify-content-between">
                     <div class="col-12 col-md-8 col-lg-8">
                         <input type="button" hidden value="Descargar" class="js_boton" />
                         <div class="js_contenedorImprimir" style="position:relative;display:inline-block;border:1px solid">
@@ -1041,7 +1041,137 @@
 
                         </div>
                     </div>
-                    <div class="col-12 col-md-124 col-lg-4">
+                    <div class="col-12 col-md-4 col-lg-4 text-start">
+                        <div class="row">
+                            <div class="col-12 col-md-12 col-lg-12">
+                                <div class="row border border-1 border-dark">
+                                    <div class="col-12 col-md-12 col-lg-12 text-center border border-1 border-dark">
+                                        NUEVO ODONTOGRAMA
+                                    </div>
+                                    <div class="col-12 col-md-8 col-lg-8 border border-1 border-dark">
+                                        NUMERO DE ODONTOGRAMA
+                                    </div>
+                                    <div class="col-12 col-md-4 col-lg-4 text-center border border-1 border-dark">
+                                        0
+                                    </div>
+                                    <div class="col-12 col-md-8 col-lg-8 border border-1 border-dark">
+                                        FECHA
+                                    </div>
+                                    <div class="col-12 col-md-4 col-lg-4 text-center border border-1 border-dark">
+                                        0
+                                    </div>
+                                    <div class="col-12 col-md-8 col-lg-8 border border-1 border-dark">
+                                        TOTAL DE PIEZAS EVALUDAS
+                                    </div>
+                                    <div class="col-12 col-md-4 col-lg-4 text-center border border-1 border-dark">
+                                        0
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-12 col-lg-12 mt-4">
+                                <div class="row border border-1 border-dark">
+                                    <div class="col-12 col-md-5 col-lg-5 text-center border border-1 border-dark">
+                                        CPO/ceo
+                                    </div>
+                                    <div class="col-12 col-md-4 col-lg-4 text-center border border-1 border-dark">
+                                        PERMANENTES
+                                    </div>
+                                    <div class="col-12 col-md-3 col-lg-3 text-center border border-1 border-dark">
+                                        DECIDUAS
+                                    </div>
+                                    <div class="col-12 col-md-5 col-lg-5 border border-1 border-dark">
+                                        PIEZA CARIADAS
+                                    </div>
+                                    <div class="col-12 col-md-4 col-lg-4 text-center border border-1 border-dark">
+                                        0
+                                    </div>
+                                    <div class="col-12 col-md-3 col-lg-3 text-center border border-1 border-dark">
+                                        0
+                                    </div>
+                                    <div class="col-12 col-md-5 col-lg-5 border border-1 border-dark">
+                                        PIEZA PERDIDAS
+                                    </div>
+                                    <div class="col-12 col-md-4 col-lg-4 text-center border border-1 border-dark">
+                                        0
+                                    </div>
+                                    <div class="col-12 col-md-3 col-lg-3 text-center border border-1 border-dark">
+                                        0
+                                    </div>
+                                    <div class="col-12 col-md-5 col-lg-5 border border-1 border-dark">
+                                        POR EXTRAER
+                                    </div>
+                                    <div class="col-12 col-md-4 col-lg-4 text-center border border-1 border-dark">
+                                        0
+                                    </div>
+                                    <div class="col-12 col-md-3 col-lg-3 text-center border border-1 border-dark">
+                                        0
+                                    </div>
+                                    <div class="col-12 col-md-5 col-lg-5 border border-1 border-dark">
+                                        P. OBSTRUIDAS
+                                    </div>
+                                    <div class="col-12 col-md-4 col-lg-4 text-center border border-1 border-dark">
+                                        0
+                                    </div>
+                                    <div class="col-12 col-md-3 col-lg-3 text-center border border-1 border-dark">
+                                        0
+                                    </div>
+                                    <div class="col-12 col-md-5 col-lg-5 border border-1 border-dark">
+                                        TOTAL
+                                    </div>
+                                    <div class="col-12 col-md-4 col-lg-4 text-center border border-1 border-dark">
+                                        0
+                                    </div>
+                                    <div class="col-12 col-md-3 col-lg-3 text-center border border-1 border-dark">
+                                        0
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-12 col-lg-12 mt-4">
+                                <div class="row border border-1 border-dark">
+                                    <div class="col-12 col-md-12 col-lg-12 text-center border border-1 border-dark">
+                                        OPCIONES
+                                    </div>
+                                    <div class="col-12 col-md-8 col-lg-8 border border-1 border-dark">
+                                        
+                                    </div>
+                                    <div class="col-12 col-md-4 col-lg-4 text-center border border-1 border-dark">
+                                        POR EXTRAER
+                                    </div>
+                                    <div class="col-12 col-md-8 col-lg-8 border border-1 border-dark">
+                                        
+                                    </div>
+                                    <div class="col-12 col-md-4 col-lg-4 text-center border border-1 border-dark">
+                                        PROTESIS
+                                    </div>
+                                    <div class="col-12 col-md-8 col-lg-8 border border-1 border-dark">
+                                        
+                                    </div>
+                                    <div class="col-12 col-md-4 col-lg-4 text-center border border-1 border-dark">
+                                        PERDIDA
+                                    </div>
+                                    <div class="col-12 col-md-8 col-lg-8 border border-1 border-dark">
+                                        
+                                    </div>
+                                    <div class="col-12 col-md-4 col-lg-4 text-center border border-1 border-dark">
+                                        OBTURADA
+                                    </div>
+                                    <div class="col-12 col-md-8 col-lg-8 border border-1 border-dark">
+                                        
+                                    </div>
+                                    <div class="col-12 col-md-4 col-lg-4 text-center border border-1 border-dark">
+                                        CARIADA
+                                    </div>
+                                    <div class="col-12 col-md-8 col-lg-8 border border-1 border-dark">
+                                        
+                                    </div>
+                                    <div class="col-12 col-md-4 col-lg-4 text-center border border-1 border-dark">
+                                        BORRAR
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-4">
                             <table class="marco-opcion-vertical" style="width:100%">
                                 <tbody id="ulOpciones_cv_EO_Odontograma">
                                     <tr>
