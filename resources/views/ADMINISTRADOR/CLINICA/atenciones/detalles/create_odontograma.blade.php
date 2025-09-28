@@ -6,17 +6,18 @@
                 <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <div class="row justify-content-between">
+                <div class="row">
                     <div class="col-12 col-md-8 col-lg-8">
-                        <input type="button" hidden value="Descargar" class="js_boton" />
+                        <!-- <input type="button" hidden value="Descargar" class="js_boton" /> -->
                         <div class="js_contenedorImprimir" style="position:relative;display:inline-block;border:1px solid">
-                            <!--
-                            <span class="moveimage">
+                            
+                            <!-- <span class="moveimage">
                                 <img src="/images/odontograma/Protesis_Total.png" style="pointer-events:none;width:48px;height:23px" />
                                 <span class="imageresize"></span>
                             </span>
                             -->
-                            <table class="js_content" style="border-collapse:collapse">
+                            <table style="border-collapse:collapse">
+                                <!-- Cuadros de la parte superior -->
                                 <tr>
                                     <td class="js_diente_1" style="border:1px solid;text-align:center">
                                         &nbsp;
@@ -91,6 +92,9 @@
                                     </td>
 
                                 </tr>
+                                <!-- fin de la parte superior  -->
+
+                                <!-- Diente de la primera fila -->
                                 <tr>
                                     <td style="text-align:center">
                                         <img src="/images/odontograma/diente_18.png" class="noevent" />
@@ -348,6 +352,9 @@
                                     </td>
 
                                 </tr>
+                                <!-- Fin de los dientes de la primera fila -->
+
+                                <!-- Diente de la segunda fila -->
                                 <tr>
                                     <td style="text-align:center"></td>
                                     <td style="text-align:center"></td>
@@ -530,6 +537,9 @@
                                     <td></td>
 
                                 </tr>
+                                <!-- Fin de los dientes de la segunda fila -->
+
+                                <!-- Diente de la tercera fila -->
                                 <tr>
                                     <td></td>
                                     <td></td>
@@ -713,6 +723,9 @@
                                     <td></td>
 
                                 </tr>
+                                <!-- Fin de la tercera fila -->
+
+                                <!-- Inicio de la cuarta fila -->
                                 <tr>
                                     <td style="text-align:center">
                                         48
@@ -971,6 +984,9 @@
                                         <img src="/images/odontograma/diente_38.png" class="noevent" />
                                     </td>
                                 </tr>
+                                <!-- Fin de la cuarta fila -->
+
+                                <!-- Cuadros de la parte inferior -->
                                 <tr>
                                     <td></td>
                                     <td></td>
@@ -1037,14 +1053,15 @@
                                     <td class="js_diente_52" style="border:1px solid;text-align:center">
                                     </td>
                                 </tr>
+                                <!-- Fin de cuadros de la parte inferior -->
                             </table>
 
                         </div>
                     </div>
-                    <div class="col-12 col-md-4 col-lg-4 text-start">
+                    <div class="col-12 col-md-4 col-lg-4">
                         <div class="row">
                             <div class="col-12 col-md-12 col-lg-12">
-                                <div class="row border border-1 border-dark">
+                                <div class="row border border-1 border-dark fw-bold">
                                     <div class="col-12 col-md-12 col-lg-12 text-center border border-1 border-dark">
                                         NUEVO ODONTOGRAMA
                                     </div>
@@ -1069,7 +1086,7 @@
                                 </div>
                             </div>
                             <div class="col-12 col-md-12 col-lg-12 mt-4">
-                                <div class="row border border-1 border-dark">
+                                <div class="row border border-1 border-dark fw-bold">
                                     <div class="col-12 col-md-5 col-lg-5 text-center border border-1 border-dark">
                                         CPO/ceo
                                     </div>
@@ -1127,51 +1144,63 @@
                                 </div>
                             </div>
                             <div class="col-12 col-md-12 col-lg-12 mt-4">
-                                <div class="row border border-1 border-dark">
-                                    <div class="col-12 col-md-12 col-lg-12 text-center border border-1 border-dark">
+                                <div class="row border border-1 border-dark text-center fw-bold">
+                                    <div class="col-12 col-md-12 col-lg-12 border border-1 border-dark">
                                         OPCIONES
                                     </div>
-                                    <div class="col-12 col-md-8 col-lg-8 border border-1 border-dark">
-                                        
+                                    <div class="col-12 col-md-4 col-lg-4 border border-1 border-dark">
+                                        <button class="bg-white border border-0" id="btn_pextraer"><i class="text-danger bi bi-x-lg"></i></button>
+                                        <input hidden id="value_pextraer">
                                     </div>
-                                    <div class="col-12 col-md-4 col-lg-4 text-center border border-1 border-dark">
+                                    <div class="col-12 col-md-8 col-lg-8 border border-1 border-dark">
                                         POR EXTRAER
                                     </div>
-                                    <div class="col-12 col-md-8 col-lg-8 border border-1 border-dark">
-                                        
+                                    <div class="col-12 col-md-4 col-lg-4 border border-1 border-dark">
+                                        <button class="bg-white border border-0" id="btn_protesis"><label class="text-primary">P</label></button>
+                                        <input hidden id="value_protesis">
                                     </div>
-                                    <div class="col-12 col-md-4 col-lg-4 text-center border border-1 border-dark">
+                                    <div class="col-12 col-md-8 col-lg-8 border border-1 border-dark">
                                         PROTESIS
                                     </div>
-                                    <div class="col-12 col-md-8 col-lg-8 border border-1 border-dark">
-                                        
+                                    <div class="col-12 col-md-4 col-lg-4 border border-1 border-dark">
+                                        <button class="bg-white border border-0" id="btn_perdida"><i class="text-primary bi bi-x-lg"></i></button>
+                                        <input hidden id="value_perdida">
                                     </div>
-                                    <div class="col-12 col-md-4 col-lg-4 text-center border border-1 border-dark">
+                                    <div class="col-12 col-md-8 col-lg-8 border border-1 border-dark">
                                         PERDIDA
                                     </div>
-                                    <div class="col-12 col-md-8 col-lg-8 border border-1 border-dark">
-                                        
+                                    <div class="col-12 col-md-4 col-lg-4 border border-1 border-dark">
+                                        <button class="bg-white border border-0" id="btn_obturada">
+                                        <i class="bg-primary text-primary bi bi-square-fill"></i>
+                                        </button>
+                                        <input hidden id="value_obturada">
                                     </div>
-                                    <div class="col-12 col-md-4 col-lg-4 text-center border border-1 border-dark">
+                                    <div class="col-12 col-md-8 col-lg-8 border border-1 border-dark">
                                         OBTURADA
                                     </div>
-                                    <div class="col-12 col-md-8 col-lg-8 border border-1 border-dark">
-                                        
+                                    <div class="col-12 col-md-4 col-lg-4 border border-1 border-dark">
+                                        <button class="bg-white border border-0" id="btn_cariada">
+                                        <i class="bg-danger text-danger bi bi-square-fill"></i>
+                                        </button>
+                                        <input hidden id="value_cariada">
                                     </div>
-                                    <div class="col-12 col-md-4 col-lg-4 text-center border border-1 border-dark">
+                                    <div class="col-12 col-md-8 col-lg-8 border border-1 border-dark">
                                         CARIADA
                                     </div>
-                                    <div class="col-12 col-md-8 col-lg-8 border border-1 border-dark">
-                                        
+                                    <div class="col-12 col-md-4 col-lg-4 border border-1 border-dark">
+                                        <button class="bg-white border border-0" id="btn_borrar">
+                                        <i class="border border-dark text-light bi bi-square-fill"></i>
+                                        </button>
+                                        <input hidden id="value_borrar">
                                     </div>
-                                    <div class="col-12 col-md-4 col-lg-4 text-center border border-1 border-dark">
+                                    <div class="col-12 col-md-8 col-lg-8 border border-1 border-dark">
                                         BORRAR
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-4 col-lg-4">
+                    <!-- <div class="col-12 col-md-4 col-lg-4">
                             <table class="marco-opcion-vertical" style="width:100%">
                                 <tbody id="ulOpciones_cv_EO_Odontograma">
                                     <tr>
@@ -1420,9 +1449,8 @@
                                     </tr>
                                 </tbody>
                             </table>
-                    </div>
+                    </div> -->
                 </div>
-
             </div>
         </div>
     </div>
