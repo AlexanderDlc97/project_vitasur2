@@ -520,52 +520,22 @@
     </script>
     <script>
         $('#btn_pextraer').on('click', function(){
-            $('#value_pextraer').val('PEX');
-            $('#value_protesis').val('');
-            $('#value_perdida').val('');
-            $('#value_obturada').val('');
-            $('#value_cariada').val('');
-            $('#value_borrar').val('');
+            $('#value_procedimientos').val('PEX');
         });
         $('#btn_protesis').on('click', function(){
-            $('#value_pextraer').val('');
-            $('#value_protesis').val('PRO');
-            $('#value_perdida').val('');
-            $('#value_obturada').val('');
-            $('#value_cariada').val('');
-            $('#value_borrar').val('');
+            $('#value_procedimientos').val('PRO');
         });
         $('#btn_perdida').on('click', function(){
-            $('#value_pextraer').val('');
-            $('#value_protesis').val('');
-            $('#value_perdida').val('PER');
-            $('#value_obturada').val('');
-            $('#value_cariada').val('');
-            $('#value_borrar').val('');
+            $('#value_procedimientos').val('PER');
         });
         $('#btn_obturada').on('click', function(){
-            $('#value_pextraer').val('');
-            $('#value_protesis').val('');
-            $('#value_perdida').val('');
-            $('#value_obturada').val('OBT');
-            $('#value_cariada').val('');
-            $('#value_borrar').val('');
+            $('#value_procedimientos').val('OBT');
         });
         $('#btn_cariada').on('click', function(){
-            $('#value_pextraer').val('');
-            $('#value_protesis').val('');
-            $('#value_perdida').val('');
-            $('#value_obturada').val('');
-            $('#value_cariada').val('CAR');
-            $('#value_borrar').val('');
+            $('#value_procedimientos').val('CAR');
         });
         $('#btn_borrar').on('click', function(){
-            $('#value_pextraer').val('');
-            $('#value_protesis').val('');
-            $('#value_perdida').val('');
-            $('#value_obturada').val('');
-            $('#value_cariada').val('');
-            $('#value_borrar').val('BOR');
+            $('#value_procedimientos').val('BOR');
         });
     </script>
 @endsection
