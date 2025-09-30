@@ -533,6 +533,14 @@
         });
         $('#btn_cariada').on('click', function(){
             $('#value_procedimientos').val('CAR');
+
+            const trapecio_left_id_1 = document.getElementById('trapecio_left_id_1');
+            trapecio_left_id_1.addEventListener('click', function() {
+                // 3. Definir la acción a realizar al hacer clic
+                    trapecio_left_id_1.style.backgroundColor = '#FF2800';
+                    // $('#trapecio_left_id_1').css('color', '#FF2800');
+                
+            });
         });
         $('#btn_borrar').on('click', function(){
             $('#value_procedimientos').val('BOR');
