@@ -35,7 +35,7 @@
                     <div class="col-12 col-md-8 col-lg-8 me-2">
                         <textarea name="otras_patologias" id="otras_patologias_id" placeholder="Otros" rows="3" class="form-control"></textarea>
                     </div>
-                    @if($admin_atencione->especialidad->id == '8')
+                    @if($admin_atencione->especialidad->id == '9')
                         <div class="col-12 col-md-4 col-lg-3">
                             <div class="pt-3 text-center" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
                                 <button type="button" data-bs-toggle="modal" data-bs-target="#createodontograma" class="btn btn-primary btn-sm text-uppercase text-white w-100" style="border-radius: 20px"><img src="/images/icons/icon_dental.png" class="img-fluid me-2" style="height: 35px;">REGISTRAR ODONTOGRAMA</button>
@@ -517,5 +517,33 @@
             /* fin de precarga de la consulta */
 
         /* FIN DE LA CONSULTA */
+    </script>
+    <script>
+        $('#btn_pextraer').on('click', function(){
+            $('#value_procedimientos').val('PEX');
+        });
+        $('#btn_protesis').on('click', function(){
+            $('#value_procedimientos').val('PRO');
+        });
+        $('#btn_perdida').on('click', function(){
+            $('#value_procedimientos').val('PER');
+        });
+        $('#btn_obturada').on('click', function(){
+            $('#value_procedimientos').val('OBT');
+        });
+        $('#btn_cariada').on('click', function(){
+            $('#value_procedimientos').val('CAR');
+
+            const trapecio_left_id_1 = document.getElementById('trapecio_left_id_1');
+            trapecio_left_id_1.addEventListener('click', function() {
+                // 3. Definir la acción a realizar al hacer clic
+                    trapecio_left_id_1.style.backgroundColor = '#FF2800';
+                    // $('#trapecio_left_id_1').css('color', '#FF2800');
+                
+            });
+        });
+        $('#btn_borrar').on('click', function(){
+            $('#value_procedimientos').val('BOR');
+        });
     </script>
 @endsection

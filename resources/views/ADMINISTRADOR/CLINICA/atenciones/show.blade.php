@@ -22,7 +22,7 @@
             position: absolute;
             bottom: 1px;
             width: 35px;
-            right: 8px;
+            right: 7px;
             height: 0px;
             border-right: 10px solid transparent;
             border-left: 10px solid transparent;
@@ -33,7 +33,7 @@
         .trapecio-top {
             position: absolute;
             top: 0;
-            width: 35px;
+            width: 33px;
             right: 8px;
             height: 0px;
             border-right: 10px solid transparent;
@@ -60,7 +60,7 @@
             width: 0px;
             height: 35px;
             border-right: 0px solid transparent;
-            border-left: 10px solid #b1afaf;
+            border-left: 10px solid transparent;
             border-top: 10px solid transparent;
             border-bottom: 10px solid transparent;
         }

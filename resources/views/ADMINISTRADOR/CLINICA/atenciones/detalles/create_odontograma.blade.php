@@ -6,17 +6,18 @@
                 <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <div class="row justify-content-between">
+                <div class="row">
                     <div class="col-12 col-md-8 col-lg-8">
-                        <input type="button" hidden value="Descargar" class="js_boton" />
+                        <!-- <input type="button" hidden value="Descargar" class="js_boton" /> -->
                         <div class="js_contenedorImprimir" style="position:relative;display:inline-block;border:1px solid">
-                            <!--
-                            <span class="moveimage">
+                            
+                            <!-- <span class="moveimage">
                                 <img src="/images/odontograma/Protesis_Total.png" style="pointer-events:none;width:48px;height:23px" />
                                 <span class="imageresize"></span>
                             </span>
                             -->
-                            <table class="js_content" style="border-collapse:collapse">
+                            <table style="border-collapse:collapse">
+                                <!-- Cuadros de la parte superior -->
                                 <tr>
                                     <td class="js_diente_1" style="border:1px solid;text-align:center">
                                         &nbsp;
@@ -91,6 +92,9 @@
                                     </td>
 
                                 </tr>
+                                <!-- fin de la parte superior  -->
+
+                                <!-- Diente de la primera fila -->
                                 <tr>
                                     <td style="text-align:center">
                                         <img src="/images/odontograma/diente_18.png" class="noevent" />
@@ -145,153 +149,153 @@
                                 <tr>
                                     <td style="text-align:center">
                                         <div data-destino="js_diente_1" class="diente" style="width: 45px;height: 35px; ">
-                                            <div class="trapecio-left"></div>
-                                            <div class="trapecio-top"></div>
-                                            <div class="trapecio-bottom"></div>
-                                            <div class="trapecio-right"></div>
-                                            <div class="rectangulo-izq"></div>
-                                            <div class="rectangulo-der"></div>
+                                            <div id="trapecio_left_id_1" class="trapecio-left"></div>
+                                            <div id="trapecio_top_id_1" class="trapecio-top"></div>
+                                            <div id="trapecio_bottom_id_1" class="trapecio-bottom"></div>
+                                            <div id="trapecio_right_id_1" class="trapecio-right"></div>
+                                            <div id="rectangulo_izq_id_1" class="rectangulo-izq"></div>
+                                            <div id="rectangulo_der_id_1" class="rectangulo-der"></div>
                                         </div>
                                     </td>
                                     <td style="text-align:center">
                                         <div data-destino="js_diente_2" class="diente" style="width: 45px; height: 35px; ">
-                                            <div class="trapecio-left"></div>
-                                            <div class="trapecio-top"></div>
-                                            <div class="trapecio-bottom"></div>
-                                            <div class="trapecio-right"></div>
-                                            <div class="rectangulo-izq"></div>
-                                            <div class="rectangulo-der"></div>
+                                            <div id="trapecio_left_id_2" class="trapecio-left"></div>
+                                            <div id="trapecio_top_id_2" class="trapecio-top"></div>
+                                            <div id="trapecio_bottom_id_2" class="trapecio-bottom"></div>
+                                            <div id="trapecio_right_id_2" class="trapecio-right"></div>
+                                            <div id="rectangulo_izq_id_2" class="rectangulo-izq"></div>
+                                            <div id="rectangulo_der_id_2" class="rectangulo-der"></div>
                                         </div>
                                     </td>
                                     <td style="text-align:center">
                                         <div data-destino="js_diente_3" class="diente" style="width: 45px; height: 35px; ">
-                                            <div class="trapecio-left"></div>
-                                            <div class="trapecio-top"></div>
-                                            <div class="trapecio-bottom"></div>
-                                            <div class="trapecio-right"></div>
-                                            <div class="rectangulo-izq"></div>
-                                            <div class="rectangulo-der"></div>
+                                            <div id="trapecio_left_id_3" class="trapecio-left"></div>
+                                            <div id="trapecio_top_id_3" class="trapecio-top"></div>
+                                            <div id="trapecio_bottom_id_3" class="trapecio-bottom"></div>
+                                            <div id="trapecio_right_id_3" class="trapecio-right"></div>
+                                            <div id="rectangulo_izq_id_3" class="rectangulo-izq"></div>
+                                            <div id="rectangulo_der_id_3" class="rectangulo-der"></div>
                                         </div>
                                     </td>
                                     <td style="text-align:center">
                                         <div data-destino="js_diente_4" class="diente" style="width: 33px;height: 31px;">
-                                            <div class="trapecio-cuadrado-left"></div>
-                                            <div class="trapecio-cuadrado-top"></div>
-                                            <div class="trapecio-cuadrado-bottom"></div>
-                                            <div class="trapecio-cuadrado-right"></div>
-                                            <div class="cuadrado"></div>
+                                            <div id="trapecio_cuadrado_left_id_4" class="trapecio-cuadrado-left"></div>
+                                            <div id="trapecio_cuadrado_top_id_4" class="trapecio-cuadrado-top"></div>
+                                            <div id="trapecio_cuadrado_bottom_id_4" class="trapecio-cuadrado-bottom"></div>
+                                            <div id="trapecio_cuadrado_right_id_4" class="trapecio-cuadrado-right"></div>
+                                            <div id="cuadrado_id_4" class="cuadrado"></div>
                                         </div>
                                     </td>
                                     <td style="text-align:center">
                                         <div data-destino="js_diente_5" class="diente" style="width: 33px;height: 31px;">
-                                            <div class="trapecio-cuadrado-left"></div>
-                                            <div class="trapecio-cuadrado-top"></div>
-                                            <div class="trapecio-cuadrado-bottom"></div>
-                                            <div class="trapecio-cuadrado-right"></div>
-                                            <div class="cuadrado"></div>
+                                            <div id="trapecio_cuadrado_left_id_5" class="trapecio-cuadrado-left"></div>
+                                            <div id="trapecio_cuadrado_top_id_5" class="trapecio-cuadrado-top"></div>
+                                            <div id="trapecio_cuadrado_bottom_id_5" class="trapecio-cuadrado-bottom"></div>
+                                            <div id="trapecio_cuadrado_right_id_5" class="trapecio-cuadrado-right"></div>
+                                            <div id="cuadrado_id_5" class="cuadrado"></div>
                                         </div>
                                     </td>
                                     <td style="text-align:center">
                                         <div data-destino="js_diente_6" class="diente" style="width: 39px;height: 35px;">
-                                            <div class="trapecio-rectangulo-left"></div>
-                                            <div class="trapecio-rectangulo-top"></div>
-                                            <div class="trapecio-rectangulo-bottom"></div>
-                                            <div class="trapecio-rectangulo-right"></div>
-                                            <div class="rectangulo"></div>
+                                            <div id="trapecio_rectangulo_left_id_6" class="trapecio-rectangulo-left"></div>
+                                            <div id="trapecio_rectangulo_top_id_6" class="trapecio-rectangulo-top"></div>
+                                            <div id="trapecio_rectangulo_bottom_id_6" class="trapecio-rectangulo-bottom"></div>
+                                            <div id="trapecio_rectangulo_right_id_6" class="trapecio-rectangulo-right"></div>
+                                            <div id="rectangulo_id_6" class="rectangulo"></div>
                                         </div>
                                     </td>
                                     <td style="text-align:center">
                                         <div data-destino="js_diente_7" class="diente" style="width: 30px;height: 31px;">
-                                            <div class="trapecio-rectangulo-small-left"></div>
-                                            <div class="trapecio-rectangulo-small-top"></div>
-                                            <div class="trapecio-rectangulo-small-bottom"></div>
-                                            <div class="trapecio-rectangulo-small-right"></div>
-                                            <div class="rectangulo-small"></div>
+                                            <div id="trapecio_rectangulo_small_top_id_7" class="trapecio-rectangulo-small-top"></div>
+                                            <div id="trapecio_rectangulo_small_left_id_7" class="trapecio-rectangulo-small-left"></div>
+                                            <div id="trapecio_rectangulo_small_bottom_id_7" class="trapecio-rectangulo-small-bottom"></div>
+                                            <div id="trapecio_rectangulo_small_right_id_7" class="trapecio-rectangulo-small-right"></div>
+                                            <div id="rectangulo_small_id_7" class="rectangulo-small"></div>
                                         </div>
                                     </td>
                                     <td style="border-right:1px solid;text-align:center">
                                         <div data-destino="js_diente_8" class="diente" style="width: 39px;height: 35px;">
-                                            <div class="trapecio-rectangulo-left"></div>
-                                            <div class="trapecio-rectangulo-top"></div>
-                                            <div class="trapecio-rectangulo-bottom"></div>
-                                            <div class="trapecio-rectangulo-right"></div>
-                                            <div class="rectangulo"></div>
+                                            <div id="trapecio_rectangulo_left_id_8" class="trapecio-rectangulo-left"></div>
+                                            <div id="trapecio_rectangulo_top_id_8" class="trapecio-rectangulo-top"></div>
+                                            <div id="trapecio_rectangulo_bottom_id_8" class="trapecio-rectangulo-bottom"></div>
+                                            <div id="trapecio_rectangulo_right_id_8" class="trapecio-rectangulo-right"></div>
+                                            <div id="rectangulo_id_8" class="rectangulo"></div>
                                         </div>
                                     </td>
 
                                     <td style="text-align:center">
                                         <div data-destino="js_diente_9" class="diente" style="width: 39px;height: 35px;">
-                                            <div class="trapecio-rectangulo-left"></div>
-                                            <div class="trapecio-rectangulo-top"></div>
-                                            <div class="trapecio-rectangulo-bottom"></div>
-                                            <div class="trapecio-rectangulo-right"></div>
-                                            <div class="rectangulo"></div>
+                                            <div id="trapecio_rectangulo_left_id_9" class="trapecio-rectangulo-left"></div>
+                                            <div id="trapecio_rectangulo_top_id_9" class="trapecio-rectangulo-top"></div>
+                                            <div id="trapecio_rectangulo_bottom_id_9" class="trapecio-rectangulo-bottom"></div>
+                                            <div id="trapecio_rectangulo_right_id_9" class="trapecio-rectangulo-right"></div>
+                                            <div id="rectangulo_id_9" class="rectangulo"></div>
                                         </div>
                                     </td>
                                     <td style="text-align:center">
                                         <div data-destino="js_diente_10" class="diente" style="width: 30px;height: 31px;">
-                                            <div class="trapecio-rectangulo-small-left"></div>
-                                            <div class="trapecio-rectangulo-small-top"></div>
-                                            <div class="trapecio-rectangulo-small-bottom"></div>
-                                            <div class="trapecio-rectangulo-small-right"></div>
-                                            <div class="rectangulo-small"></div>
+                                            <div id="trapecio_rectangulo_small_left_id_10" class="trapecio-rectangulo-small-left"></div>
+                                            <div id="trapecio_rectangulo_small_top_id_10" class="trapecio-rectangulo-small-top"></div>
+                                            <div id="trapecio_rectangulo_small_bottom_id_10" class="trapecio-rectangulo-small-bottom"></div>
+                                            <div id="trapecio_rectangulo_small_right_id_10" class="trapecio-rectangulo-small-right"></div>
+                                            <div id="rectangulo_small_id_10" class="rectangulo-small"></div>
                                         </div>
                                     </td>
                                     <td style="text-align:center">
                                         <div data-destino="js_diente_11" class="diente" style="width: 39px;height: 35px;">
-                                            <div class="trapecio-rectangulo-left"></div>
-                                            <div class="trapecio-rectangulo-top"></div>
-                                            <div class="trapecio-rectangulo-bottom"></div>
-                                            <div class="trapecio-rectangulo-right"></div>
-                                            <div class="rectangulo"></div>
+                                            <div id="trapecio_rectangulo_left_id_11" class="trapecio-rectangulo-left"></div>
+                                            <div id="trapecio_rectangulo_top_id_11" class="trapecio-rectangulo-top"></div>
+                                            <div id="trapecio_rectangulo_bottom_id_11" class="trapecio-rectangulo-bottom"></div>
+                                            <div id="trapecio_rectangulo_right_id_11" class="trapecio-rectangulo-right"></div>
+                                            <div id="rectangulo_id_11" class="rectangulo"></div>
                                         </div>
                                     </td>
                                     <td style="text-align:center">
                                         <div data-destino="js_diente_12" class="diente" style="width: 33px;height: 31px;">
-                                            <div class="trapecio-cuadrado-left"></div>
-                                            <div class="trapecio-cuadrado-top"></div>
-                                            <div class="trapecio-cuadrado-bottom"></div>
-                                            <div class="trapecio-cuadrado-right"></div>
-                                            <div class="cuadrado"></div>
+                                            <div id="trapecio_cuadrado_left_id_12" class="trapecio-cuadrado-left"></div>
+                                            <div id="trapecio_cuadrado_top_id_12" class="trapecio-cuadrado-top"></div>
+                                            <div id="trapecio_cuadrado_bottom_id_12" class="trapecio-cuadrado-bottom"></div>
+                                            <div id="trapecio_cuadrado_right_id_12" class="trapecio-cuadrado-right"></div>
+                                            <div id="cuadrado_id_12" class="cuadrado"></div>
                                         </div>
                                     </td>
                                     <td style="text-align:center">
                                         <div data-destino="js_diente_13" class="diente" style="width: 33px;height: 31px;">
-                                            <div class="trapecio-cuadrado-left"></div>
-                                            <div class="trapecio-cuadrado-top"></div>
-                                            <div class="trapecio-cuadrado-bottom"></div>
-                                            <div class="trapecio-cuadrado-right"></div>
-                                            <div class="cuadrado"></div>
+                                            <div id="trapecio_cuadrado_left_id_13" class="trapecio-cuadrado-left"></div>
+                                            <div id="trapecio_cuadrado_top_id_13" class="trapecio-cuadrado-top"></div>
+                                            <div id="trapecio_cuadrado_bottom_id_13" class="trapecio-cuadrado-bottom"></div>
+                                            <div id="trapecio_cuadrado_right_id_13" class="trapecio-cuadrado-right"></div>
+                                            <div id="cuadrado_id_13" class="cuadrado"></div>
                                         </div>
                                     </td>
                                     <td style="text-align:center">
                                         <div data-destino="js_diente_14" class="diente" style=" width: 45px;height: 35px; ">
-                                            <div class="trapecio-left"></div>
-                                            <div class="trapecio-top"></div>
-                                            <div class="trapecio-bottom"></div>
-                                            <div class="trapecio-right"></div>
-                                            <div class="rectangulo-izq"></div>
-                                            <div class="rectangulo-der"></div>
+                                            <div id="trapecio_left_id_14" class="trapecio-left"></div>
+                                            <div id="trapecio_top_id_14" class="trapecio-top"></div>
+                                            <div id="trapecio_bottom_id_14" class="trapecio-bottom"></div>
+                                            <div id="trapecio_right_id_14" class="trapecio-right"></div>
+                                            <div id="rectangulo_izq_id_14" class="rectangulo-izq"></div>
+                                            <div id="rectangulo_der_id_14" class="rectangulo-der"></div>
                                         </div>
                                     </td>
                                     <td style="text-align:center">
                                         <div data-destino="js_diente_15" class="diente" style="width: 45px;height: 35px; ">
-                                            <div class="trapecio-left"></div>
-                                            <div class="trapecio-top"></div>
-                                            <div class="trapecio-bottom"></div>
-                                            <div class="trapecio-right"></div>
-                                            <div class="rectangulo-izq"></div>
-                                            <div class="rectangulo-der"></div>
+                                            <div id="trapecio_left_id_15" class="trapecio-left"></div>
+                                            <div id="trapecio_top_id_15" class="trapecio-top"></div>
+                                            <div id="trapecio_bottom_id_15" class="trapecio-bottom"></div>
+                                            <div id="trapecio_right_id_15" class="trapecio-right"></div>
+                                            <div id="rectangulo_izq_id_15" class="rectangulo-izq"></div>
+                                            <div id="rectangulo_id_15" class="rectangulo-der"></div>
                                         </div>
                                     </td>
                                     <td style="text-align:center">
                                         <div data-destino="js_diente_16" class="diente" style="width: 45px;height: 35px; ">
-                                            <div class="trapecio-left"></div>
-                                            <div class="trapecio-top"></div>
-                                            <div class="trapecio-bottom"></div>
-                                            <div class="trapecio-right"></div>
-                                            <div class="rectangulo-izq"></div>
-                                            <div class="rectangulo-der"></div>
+                                            <div id="trapecio_left_id_16" class="trapecio-left"></div>
+                                            <div id="trapecio_top_id_16" class="trapecio-top"></div>
+                                            <div id="trapecio_bottom_id_16" class="trapecio-bottom"></div>
+                                            <div id="trapecio_right_id_16" class="trapecio-right"></div>
+                                            <div id="rectangulo_izq_id_16" class="rectangulo-izq"></div>
+                                            <div id="rectangulo_der_id_16" class="rectangulo-der"></div>
                                         </div>
                                     </td>
 
@@ -348,6 +352,9 @@
                                     </td>
 
                                 </tr>
+                                <!-- Fin de los dientes de la primera fila -->
+
+                                <!-- Diente de la segunda fila -->
                                 <tr>
                                     <td style="text-align:center"></td>
                                     <td style="text-align:center"></td>
@@ -392,97 +399,97 @@
                                     <td></td>
                                     <td style="text-align:center">
                                         <div data-destino="js_diente_17" class="diente" style="width: 45px;height: 35px; ">
-                                            <div class="trapecio-left"></div>
-                                            <div class="trapecio-top"></div>
-                                            <div class="trapecio-bottom"></div>
-                                            <div class="trapecio-right"></div>
-                                            <div class="rectangulo-izq"></div>
-                                            <div class="rectangulo-der"></div>
+                                            <div id="trapecio_left_id_17" class="trapecio-left"></div>
+                                            <div id="trapecio_top_id_17" class="trapecio-top"></div>
+                                            <div id="trapecio_bottom_id_17" class="trapecio-bottom"></div>
+                                            <div id="trapecio_right_id_17" class="trapecio-right"></div>
+                                            <div id="rectangulo_izq_id_17" class="rectangulo-izq"></div>
+                                            <div id="rectangulo_der_id_17" class="rectangulo-der"></div>
                                         </div>
                                     </td>
                                     <td style="text-align:center">
                                         <div data-destino="js_diente_18" class="diente" style="width: 45px;height: 35px; ">
-                                            <div class="trapecio-left"></div>
-                                            <div class="trapecio-top"></div>
-                                            <div class="trapecio-bottom"></div>
-                                            <div class="trapecio-right"></div>
-                                            <div class="rectangulo-izq"></div>
-                                            <div class="rectangulo-der"></div>
+                                            <div id="trapecio_left_id_18" class="trapecio-left"></div>
+                                            <div id="trapecio_top_id_18" class="trapecio-top"></div>
+                                            <div id="trapecio_bottom_id_18" class="trapecio-bottom"></div>
+                                            <div id="trapecio_right_id_18" class="trapecio-right"></div>
+                                            <div id="rectangulo_izq_id_18" class="rectangulo-izq"></div>
+                                            <div id="rectangulo_der_id_18" class="rectangulo-der"></div>
                                         </div>
                                     </td>
                                     <td style="text-align:center">
                                         <div data-destino="js_diente_19" class="diente" style="width: 39px;height: 35px;">
-                                            <div class="trapecio-rectangulo-left"></div>
-                                            <div class="trapecio-rectangulo-top"></div>
-                                            <div class="trapecio-rectangulo-bottom"></div>
-                                            <div class="trapecio-rectangulo-right"></div>
-                                            <div class="rectangulo"></div>
+                                            <div id="trapecio_rectangulo_left_id_19" class="trapecio-rectangulo-left"></div>
+                                            <div id="trapecio_rectangulo_top_id_19" class="trapecio-rectangulo-top"></div>
+                                            <div id="trapecio_rectangulo_bottom_id_19" class="trapecio-rectangulo-bottom"></div>
+                                            <div id="trapecio_rectangulo_right_id_19" class="trapecio-rectangulo-right"></div>
+                                            <div id="rectangulo_id_19" class="rectangulo"></div>
                                         </div>
                                     </td>
                                     <td style="text-align:center">
                                         <div data-destino="js_diente_20" class="diente" style="width: 30px;height: 31px;">
-                                            <div class="trapecio-rectangulo-small-left"></div>
-                                            <div class="trapecio-rectangulo-small-top"></div>
-                                            <div class="trapecio-rectangulo-small-bottom"></div>
-                                            <div class="trapecio-rectangulo-small-right"></div>
-                                            <div class="rectangulo-small"></div>
+                                            <div id="trapecio_rectangulo_small_left_id_20" class="trapecio-rectangulo-small-left"></div>
+                                            <div id="trapecio_rectangulo_small_top_id_20" class="trapecio-rectangulo-small-top"></div>
+                                            <div id="trapecio_rectangulo_small_bottom_id_20" class="trapecio-rectangulo-small-bottom"></div>
+                                            <div id="trapecio_rectangulo_small_right_id_20" class="trapecio-rectangulo-small-right"></div>
+                                            <div id="rectangulo_small_id_20" class="rectangulo-small"></div>
                                         </div>
                                     </td>
                                     <td style="border-right:1px solid;text-align:center">
                                         <div data-destino="js_diente_21" class="diente" style="width: 39px;height: 35px;">
-                                            <div class="trapecio-rectangulo-left"></div>
-                                            <div class="trapecio-rectangulo-top"></div>
-                                            <div class="trapecio-rectangulo-bottom"></div>
-                                            <div class="trapecio-rectangulo-right"></div>
-                                            <div class="rectangulo"></div>
+                                            <div id="trapecio_rectangulo_left_id_21" class="trapecio-rectangulo-left"></div>
+                                            <div id="trapecio_rectangulo_top_id_21" class="trapecio-rectangulo-top"></div>
+                                            <div id="trapecio_rectangulo_bottom_id_21" class="trapecio-rectangulo-bottom"></div>
+                                            <div id="trapecio_rectangulo_right_id_21" class="trapecio-rectangulo-right"></div>
+                                            <div id="rectangulo_id_21" class="rectangulo"></div>
                                         </div>
                                     </td>
 
                                     <td style="text-align:center">
                                         <div data-destino="js_diente_22" class="diente" style="width: 39px;height: 35px;">
-                                            <div class="trapecio-rectangulo-left"></div>
-                                            <div class="trapecio-rectangulo-top"></div>
-                                            <div class="trapecio-rectangulo-bottom"></div>
-                                            <div class="trapecio-rectangulo-right"></div>
-                                            <div class="rectangulo"></div>
+                                            <div id="trapecio_rectangulo_left_id_22" class="trapecio-rectangulo-left"></div>
+                                            <div id="trapecio_rectangulo_top_id_22" class="trapecio-rectangulo-top"></div>
+                                            <div id="trapecio_rectangulo_bottom_id_22" class="trapecio-rectangulo-bottom"></div>
+                                            <div id="trapecio_rectangulo_right_id_22" class="trapecio-rectangulo-right"></div>
+                                            <div id="rectangulo_id_22" class="rectangulo"></div>
                                         </div>
                                     </td>
                                     <td style="text-align:center">
                                         <div data-destino="js_diente_23" class="diente" style="width: 30px;height: 31px;">
-                                            <div class="trapecio-rectangulo-small-left"></div>
-                                            <div class="trapecio-rectangulo-small-top"></div>
-                                            <div class="trapecio-rectangulo-small-bottom"></div>
-                                            <div class="trapecio-rectangulo-small-right"></div>
-                                            <div class="rectangulo-small"></div>
+                                            <div id="trapecio_rectangulo_small_left_id_23" class="trapecio-rectangulo-small-left"></div>
+                                            <div id="trapecio_rectangulo_small_top_id_23" class="trapecio-rectangulo-small-top"></div>
+                                            <div id="trapecio_rectangulo_small_bottom_id_23" class="trapecio-rectangulo-small-bottom"></div>
+                                            <div id="trapecio_rectangulo_small_right_id_23" class="trapecio-rectangulo-small-right"></div>
+                                            <div id="rectangulo_small_id_23" class="rectangulo-small"></div>
                                         </div>
                                     </td>
                                     <td style="text-align:center">
                                         <div data-destino="js_diente_24" class="diente" style="width: 39px;height: 35px;">
-                                            <div class="trapecio-rectangulo-left"></div>
-                                            <div class="trapecio-rectangulo-top"></div>
-                                            <div class="trapecio-rectangulo-bottom"></div>
-                                            <div class="trapecio-rectangulo-right"></div>
-                                            <div class="rectangulo"></div>
+                                            <div id="trapecio_rectangulo_left_id_24" class="trapecio-rectangulo-left"></div>
+                                            <div id="trapecio_rectangulo_top_id_24" class="trapecio-rectangulo-top"></div>
+                                            <div id="trapecio_rectangulo_bottom_id_24" class="trapecio-rectangulo-bottom"></div>
+                                            <div id="trapecio_rectangulo_right_id_24" class="trapecio-rectangulo-right"></div>
+                                            <div id="rectangulo_id_24" class="rectangulo"></div>
                                         </div>
                                     </td>
                                     <td style="text-align:center">
                                         <div data-destino="js_diente_25" class="diente" style="width: 45px;height: 35px; ">
-                                            <div class="trapecio-left"></div>
-                                            <div class="trapecio-top"></div>
-                                            <div class="trapecio-bottom"></div>
-                                            <div class="trapecio-right"></div>
-                                            <div class="rectangulo-izq"></div>
-                                            <div class="rectangulo-der"></div>
+                                            <div id="trapecio_left_id_25" class="trapecio-left"></div>
+                                            <div id="trapecio_top_id_25" class="trapecio-top"></div>
+                                            <div id="trapecio_bottom_id_25" class="trapecio-bottom"></div>
+                                            <div id="trapecio_right_id_25" class="trapecio-right"></div>
+                                            <div id="rectangulo_izq_id_25" class="rectangulo-izq"></div>
+                                            <div id="rectangulo_der_id_25" class="rectangulo-der"></div>
                                         </div>
                                     </td>
                                     <td style="text-align:center">
                                         <div data-destino="js_diente_26" class="diente" style="width: 45px;height: 35px; ">
-                                            <div class="trapecio-left"></div>
-                                            <div class="trapecio-top"></div>
-                                            <div class="trapecio-bottom"></div>
-                                            <div class="trapecio-right"></div>
-                                            <div class="rectangulo-izq"></div>
-                                            <div class="rectangulo-der"></div>
+                                            <div id="trapecio_left_id_26" class="trapecio-left"></div>
+                                            <div id="trapecio_top_id_26" class="trapecio-top"></div>
+                                            <div id="trapecio_bottom_id_26" class="trapecio-bottom"></div>
+                                            <div id="trapecio_right_id_26" class="trapecio-right"></div>
+                                            <div id="trapecio_izq_id_26" class="rectangulo-izq"></div>
+                                            <div id="trapecio_der_id_26" class="rectangulo-der"></div>
                                         </div>
                                     </td>
                                     <td></td>
@@ -530,6 +537,9 @@
                                     <td></td>
 
                                 </tr>
+                                <!-- Fin de los dientes de la segunda fila -->
+
+                                <!-- Diente de la tercera fila -->
                                 <tr>
                                     <td></td>
                                     <td></td>
@@ -575,97 +585,97 @@
                                     <td></td>
                                     <td style="text-align:center">
                                         <div data-destino="js_diente_27" class="diente" style="width: 45px;height: 35px; ">
-                                            <div class="trapecio-left"></div>
-                                            <div class="trapecio-top"></div>
-                                            <div class="trapecio-bottom"></div>
-                                            <div class="trapecio-right"></div>
-                                            <div class="rectangulo-izq"></div>
-                                            <div class="rectangulo-der"></div>
+                                            <div id="trapecio_left_id_27" class="trapecio-left"></div>
+                                            <div id="trapecio_top_id_27" class="trapecio-top"></div>
+                                            <div id="trapecio_bottom_id_27" class="trapecio-bottom"></div>
+                                            <div id="trapecio_right_id_27" class="trapecio-right"></div>
+                                            <div id="rectangulo_izq_id_27" class="rectangulo-izq"></div>
+                                            <div id="rectangulo_der_id_27" class="rectangulo-der"></div>
                                         </div>
                                     </td>
                                     <td style="text-align:center">
                                         <div data-destino="js_diente_28" class="diente" style="width: 45px;height: 35px; ">
-                                            <div class="trapecio-left"></div>
-                                            <div class="trapecio-top"></div>
-                                            <div class="trapecio-bottom"></div>
-                                            <div class="trapecio-right"></div>
-                                            <div class="rectangulo-izq"></div>
-                                            <div class="rectangulo-der"></div>
+                                            <div id="trapecio_left_id_28" class="trapecio-left"></div>
+                                            <div id="trapecio_top_id_28" class="trapecio-top"></div>
+                                            <div id="trapecio_bottom_id_28" class="trapecio-bottom"></div>
+                                            <div id="trapecio_right_id_28" class="trapecio-right"></div>
+                                            <div id="rectangulo_izq_id_28" class="rectangulo-izq"></div>
+                                            <div id="rectangulo_der_id_28" class="rectangulo-der"></div>
                                         </div>
                                     </td>
                                     <td style="text-align:center">
                                         <div data-destino="js_diente_29" class="diente" style="width: 39px;height: 35px;">
-                                            <div class="trapecio-rectangulo-left"></div>
-                                            <div class="trapecio-rectangulo-top"></div>
-                                            <div class="trapecio-rectangulo-bottom"></div>
-                                            <div class="trapecio-rectangulo-right"></div>
-                                            <div class="rectangulo"></div>
+                                            <div id="trapecio_rectangulo_left_id_29" class="trapecio-rectangulo-left"></div>
+                                            <div id="trapecio_rectangulo_top_id_29" class="trapecio-rectangulo-top"></div>
+                                            <div id="trapecio_rectangulo_bottom_id_29" class="trapecio-rectangulo-bottom"></div>
+                                            <div id="trapecio_rectangulo_right_id_29" class="trapecio-rectangulo-right"></div>
+                                            <div id="rectangulo_id_29" class="rectangulo"></div>
                                         </div>
                                     </td>
                                     <td style="text-align:center">
                                         <div data-destino="js_diente_30" class="diente" style="width: 30px;height: 31px;">
-                                            <div class="trapecio-rectangulo-small-left"></div>
-                                            <div class="trapecio-rectangulo-small-top"></div>
-                                            <div class="trapecio-rectangulo-small-bottom"></div>
-                                            <div class="trapecio-rectangulo-small-right"></div>
-                                            <div class="rectangulo-small"></div>
+                                            <div id="trapecio_rectangulo_left_id_30" class="trapecio-rectangulo-small-left"></div>
+                                            <div id="trapecio_rectangulo_small_top_id_30" class="trapecio-rectangulo-small-top"></div>
+                                            <div id="trapecio_rectangulo_small_bottom_id_30" class="trapecio-rectangulo-small-bottom"></div>
+                                            <div id="trapecio_rectangulo_small_right_id_30" class="trapecio-rectangulo-small-right"></div>
+                                            <div id="rectangulo_small_id_30" class="rectangulo-small"></div>
                                         </div>
                                     </td>
                                     <td style="border-right:1px solid;text-align:center">
                                         <div data-destino="js_diente_31" class="diente" style="width: 39px;height: 35px;">
-                                            <div class="trapecio-rectangulo-left"></div>
-                                            <div class="trapecio-rectangulo-top"></div>
-                                            <div class="trapecio-rectangulo-bottom"></div>
-                                            <div class="trapecio-rectangulo-right"></div>
-                                            <div class="rectangulo"></div>
+                                            <div id="trapecio_rectangulo_left_id_31" class="trapecio-rectangulo-left"></div>
+                                            <div id="trapecio_rectangulo_top_id_31" class="trapecio-rectangulo-top"></div>
+                                            <div id="trapecio_rectangulo_bottom_id_31" class="trapecio-rectangulo-bottom"></div>
+                                            <div id="trapecio_rectangulo_right_id_31" class="trapecio-rectangulo-right"></div>
+                                            <div id="rectangulo_id_31" class="rectangulo"></div>
                                         </div>
                                     </td>
 
                                     <td style="text-align:center">
                                         <div data-destino="js_diente_32" class="diente" style="width: 39px;height: 35px;">
-                                            <div class="trapecio-rectangulo-left"></div>
-                                            <div class="trapecio-rectangulo-top"></div>
-                                            <div class="trapecio-rectangulo-bottom"></div>
-                                            <div class="trapecio-rectangulo-right"></div>
-                                            <div class="rectangulo"></div>
+                                            <div id="trapecio_rectangulo_left_id_32" class="trapecio-rectangulo-left"></div>
+                                            <div id="trapecio_rectangulo_top_id_32" class="trapecio-rectangulo-top"></div>
+                                            <div id="trapecio_rectangulo_bottom_id_32" class="trapecio-rectangulo-bottom"></div>
+                                            <div id="trapecio_rectangulo_right_id_32" class="trapecio-rectangulo-right"></div>
+                                            <div id="rectangulo_id_32" class="rectangulo"></div>
                                         </div>
                                     </td>
                                     <td style="text-align:center">
                                         <div data-destino="js_diente_33" class="diente" style="width: 30px;height: 31px;">
-                                            <div class="trapecio-rectangulo-small-left"></div>
-                                            <div class="trapecio-rectangulo-small-top"></div>
-                                            <div class="trapecio-rectangulo-small-bottom"></div>
-                                            <div class="trapecio-rectangulo-small-right"></div>
-                                            <div class="rectangulo-small"></div>
+                                            <div id="trapecio_rectangulo_small_left_id_33" class="trapecio-rectangulo-small-left"></div>
+                                            <div id="trapecio_rectangulo_small_top_id_33" class="trapecio-rectangulo-small-top"></div>
+                                            <div id="trapecio_rectangulo_small_bottom_id_33" class="trapecio-rectangulo-small-bottom"></div>
+                                            <div id="trapecio_rectangulo_small_right_id_33" class="trapecio-rectangulo-small-right"></div>
+                                            <div id="rectangulo_small_left_id_33" class="rectangulo-small"></div>
                                         </div>
                                     </td>
                                     <td style="text-align:center">
                                         <div data-destino="js_diente_34" class="diente" style="width: 39px;height: 35px;">
-                                            <div class="trapecio-rectangulo-left"></div>
-                                            <div class="trapecio-rectangulo-top"></div>
-                                            <div class="trapecio-rectangulo-bottom"></div>
-                                            <div class="trapecio-rectangulo-right"></div>
-                                            <div class="rectangulo"></div>
+                                            <div id="trapecio_rectangulo_left_id_34" class="trapecio-rectangulo-left"></div>
+                                            <div id="trapecio_rectangulo_top_id_34" class="trapecio-rectangulo-top"></div>
+                                            <div id="trapecio_rectangulo_bottom_id_34" class="trapecio-rectangulo-bottom"></div>
+                                            <div id="trapecio_rectangulo_right_id_34" class="trapecio-rectangulo-right"></div>
+                                            <div id="rectangulo_id_34" class="rectangulo"></div>
                                         </div>
                                     </td>
                                     <td style="text-align:center">
                                         <div data-destino="js_diente_35" class="diente" style="width: 45px;height: 35px; ">
-                                            <div class="trapecio-left"></div>
-                                            <div class="trapecio-top"></div>
-                                            <div class="trapecio-bottom"></div>
-                                            <div class="trapecio-right"></div>
-                                            <div class="rectangulo-izq"></div>
-                                            <div class="rectangulo-der"></div>
+                                            <div id="trapecio_left_id_35" class="trapecio-left"></div>
+                                            <div id="trapecio_top_id_35" class="trapecio-top"></div>
+                                            <div id="trapecio_bottom_id_35" class="trapecio-bottom"></div>
+                                            <div id="trapecio_right_id_35" class="trapecio-right"></div>
+                                            <div id="rectangulo_izq_id_35" class="rectangulo-izq"></div>
+                                            <div id="rectangulo_der_id_35" class="rectangulo-der"></div>
                                         </div>
                                     </td>
                                     <td style="text-align:center">
                                         <div data-destino="js_diente_36" class="diente" style="width: 45px;height: 35px; ">
-                                            <div class="trapecio-left"></div>
-                                            <div class="trapecio-top"></div>
-                                            <div class="trapecio-bottom"></div>
-                                            <div class="trapecio-right"></div>
-                                            <div class="rectangulo-izq"></div>
-                                            <div class="rectangulo-der"></div>
+                                            <div id="trapecio_left_id_36" class="trapecio-left"></div>
+                                            <div id="trapecio_top_id_36" class="trapecio-top"></div>
+                                            <div id="trapecio_bottom_id_36" class="trapecio-bottom"></div>
+                                            <div id="trapecio_right_id_36" class="trapecio-right"></div>
+                                            <div id="rectangulo_izq_id_36" class="rectangulo-izq"></div>
+                                            <div id="rectangulo_der_id_36" class="rectangulo-der"></div>
                                         </div>
                                     </td>
                                     <td></td>
@@ -713,6 +723,9 @@
                                     <td></td>
 
                                 </tr>
+                                <!-- Fin de la tercera fila -->
+
+                                <!-- Inicio de la cuarta fila -->
                                 <tr>
                                     <td style="text-align:center">
                                         48
@@ -768,153 +781,153 @@
                                 <tr>
                                     <td style="text-align:center">
                                         <div data-destino="js_diente_37" class="diente" style="width: 45px;height: 35px; ">
-                                            <div class="trapecio-left"></div>
-                                            <div class="trapecio-top"></div>
-                                            <div class="trapecio-bottom"></div>
-                                            <div class="trapecio-right"></div>
-                                            <div class="rectangulo-izq"></div>
-                                            <div class="rectangulo-der"></div>
+                                            <div id="trapecio_left_id_37" class="trapecio-left"></div>
+                                            <div id="trapecio_top_id_37" class="trapecio-top"></div>
+                                            <div id="trapecio_bottom_id_37" class="trapecio-bottom"></div>
+                                            <div id="trapecio_right_id_37" class="trapecio-right"></div>
+                                            <div id="rectangulo_izq_id_37" class="rectangulo-izq"></div>
+                                            <div id="rectangulo_der_id_37" class="rectangulo-der"></div>
                                         </div>
                                     </td>
                                     <td style="text-align:center">
                                         <div data-destino="js_diente_38" class="diente" style="width: 45px;height: 35px; ">
-                                            <div class="trapecio-left"></div>
-                                            <div class="trapecio-top"></div>
-                                            <div class="trapecio-bottom"></div>
-                                            <div class="trapecio-right"></div>
-                                            <div class="rectangulo-izq"></div>
-                                            <div class="rectangulo-der"></div>
+                                            <div id="trapecio_left_id_38" class="trapecio-left"></div>
+                                            <div id="trapecio_top_id_38" class="trapecio-top"></div>
+                                            <div id="trapecio_bottom_id_38" class="trapecio-bottom"></div>
+                                            <div id="trapecio_right_id_38" class="trapecio-right"></div>
+                                            <div id="rectangulo_izq_id_38" class="rectangulo-izq"></div>
+                                            <div id="rectangulo_der_id_38" class="rectangulo-der"></div>
                                         </div>
                                     </td>
                                     <td style="text-align:center">
                                         <div data-destino="js_diente_39" class="diente" style="width: 45px;height: 35px; ">
-                                            <div class="trapecio-left"></div>
-                                            <div class="trapecio-top"></div>
-                                            <div class="trapecio-bottom"></div>
-                                            <div class="trapecio-right"></div>
-                                            <div class="rectangulo-izq"></div>
-                                            <div class="rectangulo-der"></div>
+                                            <div id="trapecio_left_id_39" class="trapecio-left"></div>
+                                            <div id="trapecio_top_id_39" class="trapecio-top"></div>
+                                            <div id="trapecio_bottom_id_39" class="trapecio-bottom"></div>
+                                            <div id="trapecio_right_id_39" class="trapecio-right"></div>
+                                            <div id="rectangulo_izq_id_39" class="rectangulo-izq"></div>
+                                            <div id="rectangulo_der_id_39" class="rectangulo-der"></div>
                                         </div>
                                     </td>
                                     <td style="text-align:center">
                                         <div data-destino="js_diente_40" class="diente" style="width: 33px;height: 31px;">
-                                            <div class="trapecio-cuadrado-left"></div>
-                                            <div class="trapecio-cuadrado-top"></div>
-                                            <div class="trapecio-cuadrado-bottom"></div>
-                                            <div class="trapecio-cuadrado-right"></div>
-                                            <div class="cuadrado"></div>
+                                            <div id="trapecio_cuadrado_left_id_40" class="trapecio-cuadrado-left"></div>
+                                            <div id="trapecio_cuadrado_top_id_40" class="trapecio-cuadrado-top"></div>
+                                            <div id="trapecio_cuadrado_bottom_id_40" class="trapecio-cuadrado-bottom"></div>
+                                            <div id="trapecio_cuadrado_right_id_40" class="trapecio-cuadrado-right"></div>
+                                            <div id="cuadrado_id_40" class="cuadrado"></div>
                                         </div>
                                     </td>
                                     <td style="text-align:center">
                                         <div data-destino="js_diente_41" class="diente" style="width: 33px;height: 31px;">
-                                            <div class="trapecio-cuadrado-left"></div>
-                                            <div class="trapecio-cuadrado-top"></div>
-                                            <div class="trapecio-cuadrado-bottom"></div>
-                                            <div class="trapecio-cuadrado-right"></div>
-                                            <div class="cuadrado"></div>
+                                            <div id="trapecio_cuadrado_left_id_41" class="trapecio-cuadrado-left"></div>
+                                            <div id="trapecio_cuadrado_top_id_41" class="trapecio-cuadrado-top"></div>
+                                            <div id="trapecio_cuadrado_bottom_id_41" class="trapecio-cuadrado-bottom"></div>
+                                            <div id="trapecio_cuadrado_right_id_41" class="trapecio-cuadrado-right"></div>
+                                            <div id="cuadrado_id_41" class="cuadrado"></div>
                                         </div>
                                     </td>
                                     <td style="text-align:center">
                                         <div data-destino="js_diente_42" class="diente" style="width: 39px;height: 35px;">
-                                            <div class="trapecio-rectangulo-left"></div>
-                                            <div class="trapecio-rectangulo-top"></div>
-                                            <div class="trapecio-rectangulo-bottom"></div>
-                                            <div class="trapecio-rectangulo-right"></div>
-                                            <div class="rectangulo"></div>
+                                            <div id="trapecio_rectangulo_left_id_42" class="trapecio-rectangulo-left"></div>
+                                            <div id="trapecio_rectangulo_top_id_42" class="trapecio-rectangulo-top"></div>
+                                            <div id="trapecio_rectangulo_bottom_id_42" class="trapecio-rectangulo-bottom"></div>
+                                            <div id="trapecio_rectangulo_right_id_42" class="trapecio-rectangulo-right"></div>
+                                            <div id="rectangulo_id_42" class="rectangulo"></div>
                                         </div>
                                     </td>
                                     <td style="text-align:center">
                                         <div data-destino="js_diente_43" class="diente" style="width: 30px;height: 31px;">
-                                            <div class="trapecio-rectangulo-small-left"></div>
-                                            <div class="trapecio-rectangulo-small-top"></div>
-                                            <div class="trapecio-rectangulo-small-bottom"></div>
-                                            <div class="trapecio-rectangulo-small-right"></div>
-                                            <div class="rectangulo-small"></div>
+                                            <div id="trapecio_rectangulo_small_left_id_43" class="trapecio-rectangulo-small-left"></div>
+                                            <div id="trapecio_rectangulo_small_top_id_43" class="trapecio-rectangulo-small-top"></div>
+                                            <div id="trapecio_rectangulo_small_bottom_id_43" class="trapecio-rectangulo-small-bottom"></div>
+                                            <div id="trapecio_rectangulo_small_right_id_43" class="trapecio-rectangulo-small-right"></div>
+                                            <div id="rectangulo_small_id_43" class="rectangulo-small"></div>
                                         </div>
                                     </td>
                                     <td style="border-right:1px solid;text-align:center">
                                         <div data-destino="js_diente_44" class="diente" style="width: 39px;height: 35px;">
-                                            <div class="trapecio-rectangulo-left"></div>
-                                            <div class="trapecio-rectangulo-top"></div>
-                                            <div class="trapecio-rectangulo-bottom"></div>
-                                            <div class="trapecio-rectangulo-right"></div>
-                                            <div class="rectangulo"></div>
+                                            <div id="trapecio_rectangulo_left_id_44" class="trapecio-rectangulo-left"></div>
+                                            <div id="trapecio_rectangulo_top_id_44" class="trapecio-rectangulo-top"></div>
+                                            <div id="trapecio_rectangulo_bottom_id_44" class="trapecio-rectangulo-bottom"></div>
+                                            <div id="trapecio_rectangulo_right_id_44" class="trapecio-rectangulo-right"></div>
+                                            <div id="rectangulo_id_44" class="rectangulo"></div>
                                         </div>
                                     </td>
 
                                     <td style="text-align:center">
                                         <div data-destino="js_diente_45" class="diente" style="width: 39px;height: 35px;">
-                                            <div class="trapecio-rectangulo-left"></div>
-                                            <div class="trapecio-rectangulo-top"></div>
-                                            <div class="trapecio-rectangulo-bottom"></div>
-                                            <div class="trapecio-rectangulo-right"></div>
-                                            <div class="rectangulo"></div>
+                                            <div id="trapecio_rectangulo_left_id_45" class="trapecio-rectangulo-left"></div>
+                                            <div id="trapecio_rectangulo_top_id_45" class="trapecio-rectangulo-top"></div>
+                                            <div id="trapecio_rectangulo_bottom_id_45" class="trapecio-rectangulo-bottom"></div>
+                                            <div id="trapecio_rectangulo_right_id_45" class="trapecio-rectangulo-right"></div>
+                                            <div id="rectangulo_id_45" class="rectangulo"></div>
                                         </div>
                                     </td>
                                     <td style="text-align:center">
                                         <div data-destino="js_diente_46" class="diente" style="width: 30px;height: 31px;">
-                                            <div class="trapecio-rectangulo-small-left"></div>
-                                            <div class="trapecio-rectangulo-small-top"></div>
-                                            <div class="trapecio-rectangulo-small-bottom"></div>
-                                            <div class="trapecio-rectangulo-small-right"></div>
-                                            <div class="rectangulo-small"></div>
+                                            <div id="trapecio_rectangulo_small_left_id_46" class="trapecio-rectangulo-small-left"></div>
+                                            <div id="trapecio_rectangulo_small_top_id_46" class="trapecio-rectangulo-small-top"></div>
+                                            <div id="trapecio_rectangulo_small_bottom_id_46" class="trapecio-rectangulo-small-bottom"></div>
+                                            <div id="trapecio_rectangulo_small_right_id_46" class="trapecio-rectangulo-small-right"></div>
+                                            <div id="rectangulo-small_id_46" class="rectangulo-small"></div>
                                         </div>
                                     </td>
                                     <td style="text-align:center">
                                         <div data-destino="js_diente_47" class="diente" style="width: 39px;height: 35px;">
-                                            <div class="trapecio-rectangulo-left"></div>
-                                            <div class="trapecio-rectangulo-top"></div>
-                                            <div class="trapecio-rectangulo-bottom"></div>
-                                            <div class="trapecio-rectangulo-right"></div>
-                                            <div class="rectangulo"></div>
+                                            <div id="trapecio_rectangulo_left_id_47" class="trapecio-rectangulo-left"></div>
+                                            <div id="trapecio_rectangulo_top_id_47" class="trapecio-rectangulo-top"></div>
+                                            <div id="trapecio_rectangulo_bottom_id_47" class="trapecio-rectangulo-bottom"></div>
+                                            <div id="trapecio_rectangulo_right_id_47" class="trapecio-rectangulo-right"></div>
+                                            <div id="rectangulo_id_47" class="rectangulo"></div>
                                         </div>
                                     </td>
                                     <td style="text-align:center">
                                         <div data-destino="js_diente_48" class="diente" style="width: 33px;height: 31px;">
-                                            <div class="trapecio-cuadrado-left"></div>
-                                            <div class="trapecio-cuadrado-top"></div>
-                                            <div class="trapecio-cuadrado-bottom"></div>
-                                            <div class="trapecio-cuadrado-right"></div>
-                                            <div class="cuadrado"></div>
+                                            <div id="trapecio_cuadrado_left_id_48" class="trapecio-cuadrado-left"></div>
+                                            <div id="trapecio_cuadrado_top_id_48" class="trapecio-cuadrado-top"></div>
+                                            <div id="trapecio_cuadrado_bottom_id_48" class="trapecio-cuadrado-bottom"></div>
+                                            <div id="trapecio_cuadrado_right_id_48" class="trapecio-cuadrado-right"></div>
+                                            <div id="cuadrado_id_48" class="cuadrado"></div>
                                         </div>
                                     </td>
                                     <td style="text-align:center">
                                         <div data-destino="js_diente_49" class="diente" style="width: 33px;height: 31px;">
-                                            <div class="trapecio-cuadrado-left"></div>
-                                            <div class="trapecio-cuadrado-top"></div>
-                                            <div class="trapecio-cuadrado-bottom"></div>
-                                            <div class="trapecio-cuadrado-right"></div>
-                                            <div class="cuadrado"></div>
+                                            <div id="trapecio_cuadrado_left_id_49" class="trapecio-cuadrado-left"></div>
+                                            <div id="trapecio_cuadrado_top_id_49" class="trapecio-cuadrado-top"></div>
+                                            <div id="trapecio_cuadrado_bottom_id_49" class="trapecio-cuadrado-bottom"></div>
+                                            <div id="trapecio_cuadrado_right_id_49" class="trapecio-cuadrado-right"></div>
+                                            <div id="cuadrado_id_49" class="cuadrado"></div>
                                         </div>
                                     </td>
                                     <td style="text-align:center">
                                         <div data-destino="js_diente_50" class="diente" style="width: 45px;height: 35px; ">
-                                            <div class="trapecio-left"></div>
-                                            <div class="trapecio-top"></div>
-                                            <div class="trapecio-bottom"></div>
-                                            <div class="trapecio-right"></div>
-                                            <div class="rectangulo-izq"></div>
-                                            <div class="rectangulo-der"></div>
+                                            <div id="trapecio_left_id_50" class="trapecio-left"></div>
+                                            <div id="trapecio_top_id_50" class="trapecio-top"></div>
+                                            <div id="trapecio_bottom_id_50" class="trapecio-bottom"></div>
+                                            <div id="trapecio_right_id_50" class="trapecio-right"></div>
+                                            <div id="rectangulo_izq_id_50" class="rectangulo-izq"></div>
+                                            <div id="rectangulo_der_id_50" class="rectangulo-der"></div>
                                         </div>
                                     </td>
                                     <td style="text-align:center">
                                         <div data-destino="js_diente_51" class="diente" style="width: 45px;height: 35px; ">
-                                            <div class="trapecio-left"></div>
-                                            <div class="trapecio-top"></div>
-                                            <div class="trapecio-bottom"></div>
-                                            <div class="trapecio-right"></div>
-                                            <div class="rectangulo-izq"></div>
-                                            <div class="rectangulo-der"></div>
+                                            <div id="trapecio_left_id_51" class="trapecio-left"></div>
+                                            <div id="trapecio_top_id_51" class="trapecio-top"></div>
+                                            <div id="trapecio_bottom_id_51" class="trapecio-bottom"></div>
+                                            <div id="trapecio_right_id_51" class="trapecio-right"></div>
+                                            <div id="rectangulo_izq_id_51" class="rectangulo-izq"></div>
+                                            <div id="rectangulo_der_id_51" class="rectangulo-der"></div>
                                         </div>
                                     </td>
                                     <td style="text-align:center">
                                         <div data-destino="js_diente_52" class="diente" style=" width: 45px;height: 35px; ">
-                                            <div class="trapecio-left"></div>
-                                            <div class="trapecio-top"></div>
-                                            <div class="trapecio-bottom"></div>
-                                            <div class="trapecio-right"></div>
-                                            <div class="rectangulo-izq"></div>
-                                            <div class="rectangulo-der"></div>
+                                            <div id="trapecio_left_id_52" class="trapecio-left"></div>
+                                            <div id="trapecio_top_id_52" class="trapecio-top"></div>
+                                            <div id="trapecio_bottom_id_52" class="trapecio-bottom"></div>
+                                            <div id="trapecio_right_id_52" class="trapecio-right"></div>
+                                            <div id="rectangulo_izq_id_52" class="rectangulo-izq"></div>
+                                            <div id="rectangulo_der_id_52" class="rectangulo-der"></div>
                                         </div>
                                     </td>
 
@@ -971,6 +984,9 @@
                                         <img src="/images/odontograma/diente_38.png" class="noevent" />
                                     </td>
                                 </tr>
+                                <!-- Fin de la cuarta fila -->
+
+                                <!-- Cuadros de la parte inferior -->
                                 <tr>
                                     <td></td>
                                     <td></td>
@@ -1037,14 +1053,15 @@
                                     <td class="js_diente_52" style="border:1px solid;text-align:center">
                                     </td>
                                 </tr>
+                                <!-- Fin de cuadros de la parte inferior -->
                             </table>
 
                         </div>
                     </div>
-                    <div class="col-12 col-md-4 col-lg-4 text-start">
+                    <div class="col-12 col-md-4 col-lg-4">
                         <div class="row">
                             <div class="col-12 col-md-12 col-lg-12">
-                                <div class="row border border-1 border-dark">
+                                <div class="row border border-1 border-dark fw-bold">
                                     <div class="col-12 col-md-12 col-lg-12 text-center border border-1 border-dark">
                                         NUEVO ODONTOGRAMA
                                     </div>
@@ -1069,7 +1086,7 @@
                                 </div>
                             </div>
                             <div class="col-12 col-md-12 col-lg-12 mt-4">
-                                <div class="row border border-1 border-dark">
+                                <div class="row border border-1 border-dark fw-bold">
                                     <div class="col-12 col-md-5 col-lg-5 text-center border border-1 border-dark">
                                         CPO/ceo
                                     </div>
@@ -1127,51 +1144,59 @@
                                 </div>
                             </div>
                             <div class="col-12 col-md-12 col-lg-12 mt-4">
-                                <div class="row border border-1 border-dark">
-                                    <div class="col-12 col-md-12 col-lg-12 text-center border border-1 border-dark">
+                                <div class="row border border-1 border-dark text-center fw-bold">
+                                    <div class="col-12 col-md-12 col-lg-12 border border-1 border-dark">
                                         OPCIONES
                                     </div>
-                                    <div class="col-12 col-md-8 col-lg-8 border border-1 border-dark">
-                                        
+                                    <div class="col-12 col-md-4 col-lg-4 border border-1 border-dark">
+                                        <button class="bg-white border border-0" id="btn_pextraer"><i class="text-danger bi bi-x-lg"></i></button>
                                     </div>
-                                    <div class="col-12 col-md-4 col-lg-4 text-center border border-1 border-dark">
+                                    <div class="col-12 col-md-8 col-lg-8 border border-1 border-dark">
                                         POR EXTRAER
                                     </div>
-                                    <div class="col-12 col-md-8 col-lg-8 border border-1 border-dark">
-                                        
+                                    <div class="col-12 col-md-4 col-lg-4 border border-1 border-dark">
+                                        <button class="bg-white border border-0" id="btn_protesis"><label class="text-primary">P</label></button>
                                     </div>
-                                    <div class="col-12 col-md-4 col-lg-4 text-center border border-1 border-dark">
+                                    <div class="col-12 col-md-8 col-lg-8 border border-1 border-dark">
                                         PROTESIS
                                     </div>
-                                    <div class="col-12 col-md-8 col-lg-8 border border-1 border-dark">
-                                        
+                                    <div class="col-12 col-md-4 col-lg-4 border border-1 border-dark">
+                                        <button class="bg-white border border-0" id="btn_perdida"><i class="text-primary bi bi-x-lg"></i></button>
+                                        <input hidden id="value_perdida">
                                     </div>
-                                    <div class="col-12 col-md-4 col-lg-4 text-center border border-1 border-dark">
+                                    <div class="col-12 col-md-8 col-lg-8 border border-1 border-dark">
                                         PERDIDA
                                     </div>
-                                    <div class="col-12 col-md-8 col-lg-8 border border-1 border-dark">
-                                        
+                                    <div class="col-12 col-md-4 col-lg-4 border border-1 border-dark">
+                                        <button class="bg-white border border-0" id="btn_obturada">
+                                        <i class="bg-primary text-primary bi bi-square-fill"></i>
+                                        </button>
                                     </div>
-                                    <div class="col-12 col-md-4 col-lg-4 text-center border border-1 border-dark">
+                                    <div class="col-12 col-md-8 col-lg-8 border border-1 border-dark">
                                         OBTURADA
                                     </div>
-                                    <div class="col-12 col-md-8 col-lg-8 border border-1 border-dark">
-                                        
+                                    <div class="col-12 col-md-4 col-lg-4 border border-1 border-dark">
+                                        <button class="bg-white border border-0" id="btn_cariada">
+                                        <i class="bg-danger text-danger bi bi-square-fill"></i>
+                                        </button>
                                     </div>
-                                    <div class="col-12 col-md-4 col-lg-4 text-center border border-1 border-dark">
+                                    <div class="col-12 col-md-8 col-lg-8 border border-1 border-dark">
                                         CARIADA
                                     </div>
-                                    <div class="col-12 col-md-8 col-lg-8 border border-1 border-dark">
-                                        
+                                    <div class="col-12 col-md-4 col-lg-4 border border-1 border-dark">
+                                        <button class="bg-white border border-0" id="btn_borrar">
+                                        <i class="border border-dark text-light bi bi-square-fill"></i>
+                                        </button>
                                     </div>
-                                    <div class="col-12 col-md-4 col-lg-4 text-center border border-1 border-dark">
+                                    <div class="col-12 col-md-8 col-lg-8 border border-1 border-dark">
                                         BORRAR
                                     </div>
+                                    <input  id="value_procedimientos">
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-4 col-lg-4">
+                    <!-- <div class="col-12 col-md-4 col-lg-4">
                             <table class="marco-opcion-vertical" style="width:100%">
                                 <tbody id="ulOpciones_cv_EO_Odontograma">
                                     <tr>
@@ -1420,9 +1445,8 @@
                                     </tr>
                                 </tbody>
                             </table>
-                    </div>
+                    </div> -->
                 </div>
-
             </div>
         </div>
     </div>
