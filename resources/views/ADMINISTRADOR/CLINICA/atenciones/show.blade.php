@@ -4,10 +4,11 @@
 
 @section('css')
 <style>
+    
     .img_paciente{
         width: 100%; height: 90px;
     }
-
+    
     @media (max-width: 992px) {
         .img_paciente{
             width: 150px; height: 150px;
@@ -22,23 +23,23 @@
             position: absolute;
             bottom: 1px;
             width: 35px;
-            right: 7px;
             height: 0px;
-            border-right: 10px solid transparent;
-            border-left: 10px solid transparent;
-            border-bottom: 10px solid #b1afaf;
+            right: 7px;
+            border-right: 8px solid transparent;
+            border-left: 8px solid transparent;
+            border-bottom: 8px solid #b1afaf;
             border-top: 0;
         }
 
         .trapecio-top {
             position: absolute;
-            top: 0;
-            width: 33px;
-            right: 8px;
+            top: 0px;
+            width: 37px;
+            left: 1px;
             height: 0px;
-            border-right: 10px solid transparent;
-            border-left: 10px solid transparent;
-            border-top: 10px solid #b1afaf;
+            border-right: 8px solid transparent;
+            border-left: 8px solid transparent;
+            border-top: 8px solid #b1afaf;
             border-bottom: 0;
         }
 
@@ -48,7 +49,7 @@
             top: 0;
             width: 0px;
             height: 35px;
-            border-right: 10px solid #b1afaf;
+            border-right: 9px solid #b1afaf;
             border-left: 0px solid transparent;
             border-top: 10px solid transparent;
             border-bottom: 10px solid transparent;
@@ -60,7 +61,7 @@
             width: 0px;
             height: 35px;
             border-right: 0px solid transparent;
-            border-left: 10px solid transparent;
+            border-left: 9px solid #b1afaf;
             border-top: 10px solid transparent;
             border-bottom: 10px solid transparent;
         }
@@ -315,6 +316,14 @@
             background-color:lawngreen
         }
     /**/
+
+    /* Colorear cuadros en dientes */
+        .validartrapecio {
+            position: absolute;
+            
+        }
+        
+    /* fin del pintado */
 </style>
 @endsection
  
