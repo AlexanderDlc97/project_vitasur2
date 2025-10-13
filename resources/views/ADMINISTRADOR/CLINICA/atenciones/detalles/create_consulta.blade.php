@@ -1572,6 +1572,45 @@
                     
                 });
             // Fin de diente 28
+
+            // diente 29
+            const trapecio_left_id_28 = document.getElementById('trapecio_left_id_28');
+                trapecio_left_id_28.addEventListener('click', function() {
+                    // 3. Definir la acción a realizar al hacer clic
+                        // trapecio_left_id_28.classList.add('validartrapecio-left');
+                        trapecio_left_id_28.classList.add('validartrapecio-left');
+                        trapecio_left_id_28.style.borderLeft   = '10px solid ' + color;
+                        // $('#trapecio_left_id_28').css('color', '#FF2800');
+                    
+                });
+
+                const trapecio_right_id_28 = document.getElementById('trapecio_right_id_28');
+                trapecio_right_id_28.addEventListener('click', function() {
+                    // 3. Definir la acción a realizar al hacer clic
+                        trapecio_right_id_28.classList.add('validartrapecio-right');
+                        trapecio_right_id_28.style.borderRight   = '10px solid ' + color;
+                        // $('#trapecio_left_id_2').css('color', '#FF2800');
+                    
+                });
+
+                const trapecio_top_id_28 = document.getElementById('trapecio_top_id_28');
+                trapecio_top_id_28.addEventListener('click', function() {
+                    // 3. Definir la acción a realizar al hacer clic
+                        trapecio_top_id_28.classList.add('validartrapecio-top');
+                        trapecio_top_id_28.style.borderTop   = '10px solid ' + color;
+                        // $('#trapecio_left_id_2').css('color', '#FF2800');
+                    
+                });
+
+                const trapecio_bottom_id_28 = document.getElementById('trapecio_bottom_id_28');
+                trapecio_bottom_id_28.addEventListener('click', function() {
+                    // 3. Definir la acción a realizar al hacer clic
+                        trapecio_bottom_id_28.classList.add('validartrapecio-bottom');
+                        trapecio_bottom_id_28.style.borderBottom   = '10px solid ' + color;
+                        // $('#trapecio_left_id_1').css('color', '#FF2800');
+                    
+                });
+            // Fin de diente 29
         }
         $('#btn_pextraer').on('click', function(){
             $('#value_procedimientos').val('PEX');
