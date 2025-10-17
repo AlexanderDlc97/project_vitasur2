@@ -78,26 +78,35 @@
                                     <td>
                                     </td>
                                     <td class="js_diente_17" style="border:1px solid;text-align:center">
-                                        &nbsp;
+                                        <p id="id_diente_17"></p>
                                     </td>
                                     <td class="js_diente_18" style="border:1px solid;text-align:center">
+                                        <p id="id_diente_18"></p>
                                     </td>
                                     <td class="js_diente_19" style="border:1px solid;text-align:center">
+                                        <p id="id_diente_19"></p>
                                     </td>
                                     <td class="js_diente_20" style="border:1px solid;text-align:center">
+                                        <p id="id_diente_20"></p>
                                     </td>
                                     <td class="js_diente_21" style="border:1px solid;text-align:center">
+                                        <p id="id_diente_21"></p>
                                     </td>
 
                                     <td class="js_diente_22" style="border:1px solid;text-align:center">
+                                        <p id="id_diente_22"></p>
                                     </td>
                                     <td class="js_diente_23" style="border:1px solid;text-align:center">
+                                        <p id="id_diente_23"></p>
                                     </td>
                                     <td class="js_diente_24" style="border:1px solid;text-align:center">
+                                        <p id="id_diente_24"></p>
                                     </td>
                                     <td class="js_diente_25" style="border:1px solid;text-align:center">
+                                        <p id="id_diente_25"></p>
                                     </td>
                                     <td class="js_diente_26" style="border:1px solid;text-align:center">
+                                        <p id="id_diente_26"></p>
                                     </td>
                                     <td>
                                     </td>
@@ -1007,26 +1016,35 @@
                                     <td></td>
                                     <td></td>
                                     <td class="js_diente_27" style="border:1px solid;text-align:center">
-                                        &nbsp;
+                                        <p id="id_diente_27"></p>
                                     </td>
                                     <td class="js_diente_28" style="border:1px solid;text-align:center">
+                                        <p id="id_diente_28"></p>
                                     </td>
                                     <td class="js_diente_29" style="border:1px solid;text-align:center">
+                                        <p id="id_diente_29"></p>
                                     </td>
                                     <td class="js_diente_30" style="border:1px solid;text-align:center">
+                                        <p id="id_diente_30"></p>
                                     </td>
                                     <td class="js_diente_31" style="border:1px solid;text-align:center">
+                                        <p id="id_diente_31"></p>
                                     </td>
 
                                     <td class="js_diente_32" style="border:1px solid;text-align:center">
+                                        <p id="id_diente_32"></p>
                                     </td>
                                     <td class="js_diente_33" style="border:1px solid;text-align:center">
+                                        <p id="id_diente_33"></p>
                                     </td>
                                     <td class="js_diente_34" style="border:1px solid;text-align:center">
+                                        <p id="id_diente_34"></p>
                                     </td>
                                     <td class="js_diente_35" style="border:1px solid;text-align:center">
+                                        <p id="id_diente_35"></p>
                                     </td>
                                     <td class="js_diente_36" style="border:1px solid;text-align:center">
+                                        <p id="id_diente_36"></p>
                                     </td>
                                     <td></td>
                                     <td></td>

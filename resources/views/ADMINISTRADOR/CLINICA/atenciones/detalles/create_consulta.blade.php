@@ -575,6 +575,426 @@
                         
                     });
                 // Fin de diente 16
+                // diente 15
+                    const cuadrado_id_4 = document.getElementById('cuadrado_id_4');
+                    cuadrado_id_4.addEventListener('click', function() {
+                        // 3. Definir la acción a realizar al hacer clic
+                            id_diente_4.style.color = color;
+                            id_diente_4.innerHTML="X";
+                            id_diente_4.style.marginBottom  = '0px';
+                        
+                    });
+                // Fin de diente 15
+                // diente 14
+                    const cuadrado_id_5 = document.getElementById('cuadrado_id_5');
+                    cuadrado_id_5.addEventListener('click', function() {
+                        // 3. Definir la acción a realizar al hacer clic
+                            id_diente_5.style.color = color;
+                            id_diente_5.innerHTML="X";
+                            id_diente_5.style.marginBottom  = '0px';
+                        
+                    });
+                // Fin de diente 14
+                // diente 13
+                    const rectangulo_id_6 = document.getElementById('rectangulo_id_6');
+                    rectangulo_id_6.addEventListener('click', function() {
+                        // 3. Definir la acción a realizar al hacer clic
+                            id_diente_6.style.color = color;
+                            id_diente_6.innerHTML="X";
+                            id_diente_6.style.marginBottom  = '0px';
+                        
+                    });
+                // Fin de diente 13
+                // diente 12
+                    const rectangulo_small_id_7 = document.getElementById('rectangulo_small_id_7');
+                    rectangulo_small_id_7.addEventListener('click', function() {
+                        // 3. Definir la acción a realizar al hacer clic
+                            id_diente_7.style.color = color;
+                            id_diente_7.innerHTML="X";
+                            id_diente_7.style.marginBottom  = '0px';
+                        
+                    });
+                // Fin de diente 12
+                // diente 11
+                    const rectangulo_id_8 = document.getElementById('rectangulo_id_8');
+                    rectangulo_id_8.addEventListener('click', function() {
+                        // 3. Definir la acción a realizar al hacer clic
+                            id_diente_8.style.color = color;
+                            id_diente_8.innerHTML="X";
+                            id_diente_8.style.marginBottom  = '0px';
+                        
+                    });
+                // Fin de diente 11
+                // diente 21
+                    const rectangulo_id_9 = document.getElementById('rectangulo_id_9');
+                    rectangulo_id_9.addEventListener('click', function() {
+                        // 3. Definir la acción a realizar al hacer clic
+                            id_diente_9.style.color = color;
+                            id_diente_9.innerHTML="X";
+                            id_diente_9.style.marginBottom  = '0px';
+                        
+                    });
+                // Fin de diente 21
+                // diente 22
+                    const rectangulo_small_id_10 = document.getElementById('rectangulo_small_id_10');
+                    rectangulo_small_id_10.addEventListener('click', function() {
+                        // 3. Definir la acción a realizar al hacer clic
+                            id_diente_10.style.color = color;
+                            id_diente_10.innerHTML="X";
+                            id_diente_10.style.marginBottom  = '0px';
+                        
+                    });
+                // Fin de diente 22
+                // diente 23
+                    const rectangulo_id_11 = document.getElementById('rectangulo_id_11');
+                    rectangulo_id_11.addEventListener('click', function() {
+                        // 3. Definir la acción a realizar al hacer clic
+                            id_diente_11.style.color = color;
+                            id_diente_11.innerHTML="X";
+                            id_diente_11.style.marginBottom  = '0px';
+                        
+                    });
+                // Fin de diente 23
+                // diente 24
+                    const cuadrado_id_12 = document.getElementById('cuadrado_id_12');
+                    cuadrado_id_12.addEventListener('click', function() {
+                        // 3. Definir la acción a realizar al hacer clic
+                            id_diente_12.style.color = color;
+                            id_diente_12.innerHTML="X";
+                            id_diente_12.style.marginBottom  = '0px';
+                        
+                    });
+                // Fin de diente 24
+                // diente 25
+                    const cuadrado_id_13 = document.getElementById('cuadrado_id_13');
+                    cuadrado_id_13.addEventListener('click', function() {
+                        // 3. Definir la acción a realizar al hacer clic
+                            id_diente_13.style.color = color;
+                            id_diente_13.innerHTML="X";
+                            id_diente_13.style.marginBottom  = '0px';
+                        
+                    });
+                // Fin de diente 25
+                // diente 26
+                    const rectangulo_izq_id_14 = document.getElementById('rectangulo_izq_id_14');
+                    rectangulo_izq_id_14.addEventListener('click', function() {
+                        // 3. Definir la acción a realizar al hacer clic
+                            id_diente_14.style.color = color;
+                            id_diente_14.innerHTML="X";
+                            id_diente_14.style.marginBottom  = '0px';
+                        
+                    });
+                    const rectangulo_der_id_14 = document.getElementById('rectangulo_der_id_14');
+                    rectangulo_der_id_14.addEventListener('click', function() {
+                        // 3. Definir la acción a realizar al hacer clic
+                            id_diente_14.style.color = color;
+                            id_diente_14.innerHTML="X";
+                            id_diente_14.style.marginBottom  = '0px';
+                        
+                    });
+                // Fin de diente 26
+                // diente 27
+                    const rectangulo_izq_id_15 = document.getElementById('rectangulo_izq_id_15');
+                    rectangulo_izq_id_15.addEventListener('click', function() {
+                        // 3. Definir la acción a realizar al hacer clic
+                            id_diente_15.style.color = color;
+                            id_diente_15.innerHTML="X";
+                            id_diente_15.style.marginBottom  = '0px';
+                        
+                    });
+                    const rectangulo_id_15 = document.getElementById('rectangulo_id_15');
+                    rectangulo_id_15.addEventListener('click', function() {
+                        // 3. Definir la acción a realizar al hacer clic
+                            id_diente_15.style.color = color;
+                            id_diente_15.innerHTML="X";
+                            id_diente_15.style.marginBottom  = '0px';
+                        
+                    });
+                // Fin de diente 27
+                // diente 28
+                    const rectangulo_izq_id_16 = document.getElementById('rectangulo_izq_id_16');
+                    rectangulo_izq_id_16.addEventListener('click', function() {
+                        // 3. Definir la acción a realizar al hacer clic
+                            id_diente_16.style.color = color;
+                            id_diente_16.innerHTML="X";
+                            id_diente_16.style.marginBottom  = '0px';
+                        
+                    });
+                    const rectangulo_der_id_16 = document.getElementById('rectangulo_der_id_16');
+                    rectangulo_der_id_16.addEventListener('click', function() {
+                        // 3. Definir la acción a realizar al hacer clic
+                            id_diente_16.style.color = color;
+                            id_diente_16.innerHTML="X";
+                            id_diente_16.style.marginBottom  = '0px';
+                        
+                    });
+                // Fin de diente 28
+
+                // diente 55
+                    const rectangulo_izq_id_17 = document.getElementById('rectangulo_izq_id_17');
+                    rectangulo_izq_id_17.addEventListener('click', function() {
+                        // 3. Definir la acción a realizar al hacer clic
+                            id_diente_17.style.color = color;
+                            id_diente_17.innerHTML="X";
+                            id_diente_17.style.marginBottom  = '0px';
+                        
+                    });
+                    const rectangulo_der_id_17 = document.getElementById('rectangulo_der_id_17');
+                    rectangulo_der_id_17.addEventListener('click', function() {
+                        // 3. Definir la acción a realizar al hacer clic
+                            id_diente_17.style.color = color;
+                            id_diente_17.innerHTML="X";
+                            id_diente_17.style.marginBottom  = '0px';
+                        
+                    });
+                // Fin de diente 55
+                // diente 54
+                    const rectangulo_izq_id_18 = document.getElementById('rectangulo_izq_id_18');
+                    rectangulo_izq_id_18.addEventListener('click', function() {
+                        // 3. Definir la acción a realizar al hacer clic
+                            id_diente_18.style.color = color;
+                            id_diente_18.innerHTML="X";
+                            id_diente_18.style.marginBottom  = '0px';
+                        
+                    });
+                    const rectangulo_der_id_18 = document.getElementById('rectangulo_der_id_18');
+                    rectangulo_der_id_18.addEventListener('click', function() {
+                        // 3. Definir la acción a realizar al hacer clic
+                            id_diente_18.style.color = color;
+                            id_diente_18.innerHTML="X";
+                            id_diente_18.style.marginBottom  = '0px';
+                        
+                    });
+                // Fin de diente 54
+                // diente 53
+                    const rectangulo_id_19 = document.getElementById('rectangulo_id_19');
+                    rectangulo_id_19.addEventListener('click', function() {
+                        // 3. Definir la acción a realizar al hacer clic
+                            id_diente_19.style.color = color;
+                            id_diente_19.innerHTML="X";
+                            id_diente_19.style.marginBottom  = '0px';
+                        
+                    });
+                // Fin de diente 53
+                // diente 52
+                    const rectangulo_small_id_20 = document.getElementById('rectangulo_small_id_20');
+                    rectangulo_small_id_20.addEventListener('click', function() {
+                        // 3. Definir la acción a realizar al hacer clic
+                            id_diente_20.style.color = color;
+                            id_diente_20.innerHTML="X";
+                            id_diente_20.style.marginBottom  = '0px';
+                        
+                    });
+                // Fin de diente 52
+                // diente 51
+                    const rectangulo_id_21 = document.getElementById('rectangulo_id_21');
+                    rectangulo_id_21.addEventListener('click', function() {
+                        // 3. Definir la acción a realizar al hacer clic
+                            id_diente_21.style.color = color;
+                            id_diente_21.innerHTML="X";
+                            id_diente_21.style.marginBottom  = '0px';
+                        
+                    });
+                // Fin de diente 51
+                // diente 61
+                    const rectangulo_id_22 = document.getElementById('rectangulo_id_22');
+                    rectangulo_id_22.addEventListener('click', function() {
+                        // 3. Definir la acción a realizar al hacer clic
+                            id_diente_22.style.color = color;
+                            id_diente_22.innerHTML="X";
+                            id_diente_22.style.marginBottom  = '0px';
+                        
+                    });
+                // Fin de diente 61
+                // diente 62
+                    const rectangulo_small_id_23 = document.getElementById('rectangulo_small_id_23');
+                    rectangulo_small_id_23.addEventListener('click', function() {
+                        // 3. Definir la acción a realizar al hacer clic
+                            id_diente_23.style.color = color;
+                            id_diente_23.innerHTML="X";
+                            id_diente_23.style.marginBottom  = '0px';
+                        
+                    });
+                // Fin de diente 62
+                // diente 63
+                    const rectangulo_id_24 = document.getElementById('rectangulo_id_24');
+                    rectangulo_id_24.addEventListener('click', function() {
+                        // 3. Definir la acción a realizar al hacer clic
+                            id_diente_24.style.color = color;
+                            id_diente_24.innerHTML="X";
+                            id_diente_24.style.marginBottom  = '0px';
+                        
+                    });
+                // Fin de diente 63
+                // diente 64
+                    const rectangulo_izq_id_25 = document.getElementById('rectangulo_izq_id_25');
+                    rectangulo_izq_id_25.addEventListener('click', function() {
+                        // 3. Definir la acción a realizar al hacer clic
+                            id_diente_25.style.color = color;
+                            id_diente_25.innerHTML="X";
+                            id_diente_25.style.marginBottom  = '0px';
+                        
+                    });
+                    const rectangulo_der_id_25 = document.getElementById('rectangulo_der_id_25');
+                    rectangulo_der_id_25.addEventListener('click', function() {
+                        // 3. Definir la acción a realizar al hacer clic
+                            id_diente_25.style.color = color;
+                            id_diente_25.innerHTML="X";
+                            id_diente_25.style.marginBottom  = '0px';
+                        
+                    });
+                // Fin de diente 64
+                // diente 65
+                    const trapecio_izq_id_26 = document.getElementById('trapecio_izq_id_26');
+                    trapecio_izq_id_26.addEventListener('click', function() {
+                        // 3. Definir la acción a realizar al hacer clic
+                            id_diente_26.style.color = color;
+                            id_diente_26.innerHTML="X";
+                            id_diente_26.style.marginBottom  = '0px';
+                        
+                    });
+                    const trapecio_der_id_26 = document.getElementById('trapecio_der_id_26');
+                    trapecio_der_id_26.addEventListener('click', function() {
+                        // 3. Definir la acción a realizar al hacer clic
+                            id_diente_26.style.color = color;
+                            id_diente_26.innerHTML="X";
+                            id_diente_26.style.marginBottom  = '0px';
+                        
+                    });
+                // Fin de diente 65
+
+                // diente 85
+                    const rectangulo_izq_id_27 = document.getElementById('rectangulo_izq_id_27');
+                    rectangulo_izq_id_27.addEventListener('click', function() {
+                        // 3. Definir la acción a realizar al hacer clic
+                            id_diente_27.style.color = color;
+                            id_diente_27.innerHTML="X";
+                            id_diente_27.style.marginBottom  = '0px';
+                        
+                    });
+                    const rectangulo_der_id_27 = document.getElementById('rectangulo_der_id_27');
+                    rectangulo_der_id_27.addEventListener('click', function() {
+                        // 3. Definir la acción a realizar al hacer clic
+                            id_diente_27.style.color = color;
+                            id_diente_27.innerHTML="X";
+                            id_diente_27.style.marginBottom  = '0px';
+                        
+                    });
+                // Fin de diente 85
+                // diente 84
+                    const rectangulo_izq_id_28 = document.getElementById('rectangulo_izq_id_28');
+                    rectangulo_izq_id_28.addEventListener('click', function() {
+                        // 3. Definir la acción a realizar al hacer clic
+                            id_diente_28.style.color = color;
+                            id_diente_28.innerHTML="X";
+                            id_diente_28.style.marginBottom  = '0px';
+                        
+                    });
+                    const rectangulo_der_id_28 = document.getElementById('rectangulo_der_id_28');
+                    rectangulo_der_id_28.addEventListener('click', function() {
+                        // 3. Definir la acción a realizar al hacer clic
+                            id_diente_28.style.color = color;
+                            id_diente_28.innerHTML="X";
+                            id_diente_28.style.marginBottom  = '0px';
+                        
+                    });
+                // Fin de diente 84
+                // diente 83
+                    const rectangulo_id_29 = document.getElementById('rectangulo_id_29');
+                    rectangulo_id_29.addEventListener('click', function() {
+                        // 3. Definir la acción a realizar al hacer clic
+                            id_diente_29.style.color = color;
+                            id_diente_29.innerHTML="X";
+                            id_diente_29.style.marginBottom  = '0px';
+                        
+                    });
+                // Fin de diente 83
+                // diente 82
+                    const rectangulo_small_id_30 = document.getElementById('rectangulo_small_id_30');
+                    rectangulo_small_id_30.addEventListener('click', function() {
+                        // 3. Definir la acción a realizar al hacer clic
+                            id_diente_30.style.color = color;
+                            id_diente_30.innerHTML="X";
+                            id_diente_30.style.marginBottom  = '0px';
+                        
+                    });
+                // Fin de diente 82
+                // diente 81
+                    const rectangulo_id_31 = document.getElementById('rectangulo_id_31');
+                    rectangulo_id_31.addEventListener('click', function() {
+                        // 3. Definir la acción a realizar al hacer clic
+                            id_diente_31.style.color = color;
+                            id_diente_31.innerHTML="X";
+                            id_diente_31.style.marginBottom  = '0px';
+                        
+                    });
+                // Fin de diente 81
+                // diente 71
+                    const rectangulo_id_32 = document.getElementById('rectangulo_id_32');
+                    rectangulo_id_32.addEventListener('click', function() {
+                        // 3. Definir la acción a realizar al hacer clic
+                            id_diente_32.style.color = color;
+                            id_diente_32.innerHTML="X";
+                            id_diente_32.style.marginBottom  = '0px';
+                        
+                    });
+                // Fin de diente 71
+                // diente 72
+                    const rectangulo_small_left_id_33 = document.getElementById('rectangulo_small_left_id_33');
+                    rectangulo_small_left_id_33.addEventListener('click', function() {
+                        // 3. Definir la acción a realizar al hacer clic
+                            id_diente_33.style.color = color;
+                            id_diente_33.innerHTML="X";
+                            id_diente_33.style.marginBottom  = '0px';
+                        
+                    });
+                // Fin de diente 72
+                // diente 73
+                    const rectangulo_id_34 = document.getElementById('rectangulo_id_34');
+                    rectangulo_id_34.addEventListener('click', function() {
+                        // 3. Definir la acción a realizar al hacer clic
+                            id_diente_34.style.color = color;
+                            id_diente_34.innerHTML="X";
+                            id_diente_34.style.marginBottom  = '0px';
+                        
+                    });
+                // Fin de diente 73
+                // diente 74
+                    const rectangulo_izq_id_35 = document.getElementById('rectangulo_izq_id_35');
+                    rectangulo_izq_id_35.addEventListener('click', function() {
+                        // 3. Definir la acción a realizar al hacer clic
+                            id_diente_35.style.color = color;
+                            id_diente_35.innerHTML="X";
+                            id_diente_35.style.marginBottom  = '0px';
+                        
+                    });
+                    const rectangulo_der_id_35 = document.getElementById('rectangulo_der_id_35');
+                    rectangulo_der_id_35.addEventListener('click', function() {
+                        // 3. Definir la acción a realizar al hacer clic
+                            id_diente_35.style.color = color;
+                            id_diente_35.innerHTML="X";
+                            id_diente_35.style.marginBottom  = '0px';
+                        
+                    });
+                // Fin de diente 74
+                // diente 75
+                    const rectangulo_izq_id_36 = document.getElementById('rectangulo_izq_id_36');
+                    rectangulo_izq_id_36.addEventListener('click', function() {
+                        // 3. Definir la acción a realizar al hacer clic
+                            id_diente_36.style.color = color;
+                            id_diente_36.innerHTML="X";
+                            id_diente_36.style.marginBottom  = '0px';
+                        
+                    });
+                    const rectangulo_der_id_36 = document.getElementById('rectangulo_der_id_36');
+                    rectangulo_der_id_36.addEventListener('click', function() {
+                        // 3. Definir la acción a realizar al hacer clic
+                            id_diente_36.style.color = color;
+                            id_diente_36.innerHTML="X";
+                            id_diente_36.style.marginBottom  = '0px';
+                        
+                    });
+                // Fin de diente 75
             }else{
 
                 // diente 18
